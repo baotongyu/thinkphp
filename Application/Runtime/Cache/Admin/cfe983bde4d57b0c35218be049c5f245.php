@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>板块添加页面  <a href="/thinkphp/admin/plate/insert">执行添加操作</a>

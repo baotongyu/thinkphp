@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>登录页面  <a href="/thinkphp/home/login/dologin">执行登录</a>

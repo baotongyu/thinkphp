@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>这是成绩单页面

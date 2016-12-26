@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>这是试卷添加页面    <a href="/thinkphp/admin/test/insert">执行添加操作</a>

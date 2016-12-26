@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>这是用户注册页面 <a href="/thinkphp/home/login/doregister">执行用户注册</a>

@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>这是试卷修改页面  <a href="/thinkphp/admin/test/update">执行修改操作</a>

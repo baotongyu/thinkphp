@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>板块修改页面  <a href="/thinkphp/admin/plate/update">执行修改操作</a>
