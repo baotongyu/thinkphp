@@ -26,7 +26,7 @@
             <button type="submit" class="btn btn-primary block full-width m-b">登 录</button>
             <a href="#"><small>忘记密码？</small></a>
         </form>
-        <p class="m-t"> <small>Inspinia we app framework base on Bootstrap 3 &copy; 2014</small> </p>
+        <p class="m-t"><small>Inspinia we app framework base on Bootstrap 3 &copy; 2016</small></p>
     </div>
 </div>
 

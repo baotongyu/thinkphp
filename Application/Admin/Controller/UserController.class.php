@@ -5,7 +5,7 @@ use Think\Controller;
 
 class UserController extends Controller
 {
-	//加载学生管理系统模板
+	//加载用户管理模板
     public function index()
     {
     	//echo '这是网站后台首页';
@@ -15,12 +15,12 @@ class UserController extends Controller
         $this->display('user/index');
     }
     
-    //加载添加学生信息模板
+    //加载添加用户模板
     public function add(){
     	$this->display('user/add');
 	}
 	
-	//执行添加操作
+	//执行用户添加操作
 	public function insert(){
 //    	var_dump($_POST);die;
     	//echo '添加学生信息';
@@ -37,7 +37,7 @@ class UserController extends Controller
 		}
 	}
 	
-	// 执行删除操作
+	// 执行用户删除操作
 	public function del($id){
 		//echo $id;
 		$m = M('User');
@@ -49,7 +49,7 @@ class UserController extends Controller
 		}
 	}
 	
-	// 加载修改模板
+	// 加载用户信息修改模板
 	public function edit($id){
 		//var_dump($id);die;
 		$m = M('User');
@@ -57,6 +57,8 @@ class UserController extends Controller
 		$this->assign('data',$data);
 		$this->display('user/edit');
 	}
+	
+	// 执行用户信息修改
 	public function update(){
 //		var_dump($_POST);die;
 		$m = M('User');

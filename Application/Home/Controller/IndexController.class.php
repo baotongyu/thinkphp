@@ -7,6 +7,7 @@ class IndexController extends Controller
 {
     public function index()
     {
-        echo '这是网站前台首页';
+        //echo '这是网站前台首页';
+		$this->display('index/index');
     }
 }
