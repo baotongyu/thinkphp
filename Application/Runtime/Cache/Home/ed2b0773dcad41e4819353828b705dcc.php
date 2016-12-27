@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?>这是详情页   <a href="/thinkphp/home/test/index">点击进入考试</a>

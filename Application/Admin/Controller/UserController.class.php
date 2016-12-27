@@ -27,7 +27,7 @@ class UserController extends Controller
 		$m = M('user');
 		if($m->create()){
 			if (false !== $m->add()) {
-				$this->success('数据添加成功',U('admin/user/index'));
+				$this->success('数据添加成功','/thinkphp/admin/user/index');
 			} else {
 				$this->error('数据写入错误');
 			}
@@ -43,7 +43,7 @@ class UserController extends Controller
 		$m = M('User');
 		$res = $m->where('id='.$id)->delete();
 		if($res){
-			$this->success('数据删除成功');
+			$this->success('数据删除成功','/thinkphp/admin/user/index');
 		}else{
 			$this->error('数据删除失败');
 		}
@@ -68,7 +68,7 @@ class UserController extends Controller
 			//验证规则ok
 			$res = $m->save();
 			if($res){
-				$this->success('数据修改成功',U('admin/user/index'));
+				$this->success('数据修改成功','/thinkphp/admin/user/index');
 			}else{
 				$this->error('数据修改失败');
 			}

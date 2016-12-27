@@ -21,7 +21,7 @@ class TestController extends Controller
 	public function insert(){
 		//echo '试卷添加成功';
 		if(2>1){
-			$this->success('试卷添加成功',U('admin/test/index'));
+			$this->success('试卷添加成功','/thinkphp/admin/test/index');
 		}else{
 			$this->error('试卷添加失败');
 		}
@@ -31,7 +31,7 @@ class TestController extends Controller
 	public function del(){
 		//echo '试卷删除成功';
 		if(2>1){
-			$this->success('试卷删除成功',U('admin/test/index'));
+			$this->success('试卷删除成功','/thinkphp/admin/test/index');
 		}else{
 			$this->error('试卷删除失败');
 		}
@@ -47,7 +47,7 @@ class TestController extends Controller
 	public function update(){
 		//echo '修改试卷成功';
 		if(2>1){
-			$this->success('试卷修改成功',U('admin/test/index'));
+			$this->success('试卷修改成功','/thinkphp/admin/test/index');
 		}else{
 			$this->error('试卷修改失败');
 		}

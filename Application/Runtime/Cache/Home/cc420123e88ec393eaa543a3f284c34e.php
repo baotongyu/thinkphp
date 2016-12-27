@@ -1,1 +1,1 @@
-<?php if (!defined('THINK_PATH')) exit();?>分页浏览
+<?php if (!defined('THINK_PATH')) exit();?>分页浏览  <a href="/thinkphp/home/detail/index">了解详情</a>

@@ -7,7 +7,7 @@ class DetailController extends Controller
 {
     public function index()
     {
-        echo '这是详情页';
-		//$this->display('index/index');
+        //echo '这是详情页';
+		$this->display('detail/index');
     }
 }

@@ -1,1 +1,82 @@
-板块添加页面  <a href="/thinkphp/admin/plate/insert">执行添加操作</a>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>后台栏目添加</title>
+    <link href="../../../../thinkphp/Public/admin/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../thinkphp/Public/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../../../../thinkphp/Public/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">
+    <link href="../../../../thinkphp/Public/admin/css/animate.css" rel="stylesheet">
+    <link href="../../../../thinkphp/Public/admin/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+    <!--左侧导航栏 开始-->
+    <include file="./Application/Admin/View/index/left.html" />
+    <!--左侧导航栏 结束-->
+
+    <div id="page-wrapper" class="gray-bg">
+        <!--右侧header头 开始-->
+        <include file="./Application/Admin/View/index/right_top.html" />
+        <!--右侧header头 结束-->
+
+        <!--右侧详情展示 开始-->
+        <div class="ibox-content">
+            <form action="/thinkphp/admin/plate/insert" method="post" class="form-horizontal">
+                <div class="form-group"><label class="col-sm-2 control-label">父级栏目名称：</label>
+                    <div class="col-sm-10">
+                        <select class="form-control m-b" name="pid">
+                            <option value="0">顶级栏目</option>
+                            <foreach name="data" item="vo">
+                            <option value="{$vo['id']}">{$vo['pname']}</option>
+                            </foreach>
+                        </select>
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">子级栏目名称：</label>
+                    <div class="col-sm-10"><input type="text" class="form-control" name="pname"></div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <button class="btn btn-primary" type="submit">添 加</button>
+                        <button class="btn btn-primary" type="reset">重 置</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!--右侧详情展示 结束-->
+
+        <!--右侧尾部信息 开始-->
+        <include file="./Application/Admin/View/index/footer.html" />
+        <!--右侧尾部信息 结束-->
+    </div>
+</div>
+
+<!-- Mainly scripts -->
+<script src="../../../../thinkphp/Public/admin/js/jquery-2.1.1.js"></script>
+<script src="../../../../thinkphp/Public/admin/js/jquery-ui-1.10.4.min.js"></script>
+<script src="../../../../thinkphp/Public/admin/js/bootstrap.min.js"></script>
+<script src="../../../../thinkphp/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+<script src="../../../../thinkphp/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+
+<!-- Custom and plugin javascript -->
+<script src="../../../../thinkphp/Public/admin/js/inspinia.js"></script>
+<script src="../../../../thinkphp/Public/admin/js/plugins/pace/pace.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#todo, #inprogress, #completed").sortable({
+            connectWith: ".connectList",
+            update: function( event, ui ) {
+                var todo = $( "#todo" ).sortable( "toArray" );
+                var inprogress = $( "#inprogress" ).sortable( "toArray" );
+                var completed = $( "#completed" ).sortable( "toArray" );
+                $('.output').html("ToDo: " + window.JSON.stringify(todo) + "<br/>" + "In Progress: " + window.JSON.stringify(inprogress) + "<br/>" + "Completed: " + window.JSON.stringify(completed));
+            }
+        }).disableSelection();
+    });
+</script>
+</body>
+</html>

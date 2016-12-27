@@ -13,6 +13,7 @@
 <body>
 <div id="wrapper">
     <!--左侧导航栏 开始-->
+    <!--左侧导航栏 开始-->
     <nav class="navbar-default navbar-static-side" role="navigation">
         <div class="sidebar-collapse">
             <ul class="nav metismenu" id="side-menu">
@@ -62,7 +63,9 @@
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试题管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
                         <li><a href="/thinkphp/admin/questions/index">查看试题</a></li>
-                        <li><a href="/thinkphp/admin/questions/add">添加试题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add1">添加单选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add2">添加多选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add3">添加判断题</a></li>
                     </ul>
                 </li>
                 <!--试题管理 结束-->
@@ -88,43 +91,45 @@
             </ul>
         </div>
     </nav>
+<!--左侧导航栏 结束-->
     <!--左侧导航栏 结束-->
 
     <div id="page-wrapper" class="gray-bg">
         <!--右侧header头 开始-->
         <div class="row border-bottom">
-            <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
-                <div class="navbar-header">
-                    <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i></a>
-                    <form role="search" class="navbar-form-custom" action="search_results.html">
-                        <div class="form-group">
-                            <input type="text" placeholder="详情展示..." class="form-control" name="top-search" id="top-search">
-                        </div>
-                    </form>
+    <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="navbar-header">
+            <a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i></a>
+            <form role="search" class="navbar-form-custom" action="search_results.html">
+                <div class="form-group">
+                    <input type="text" placeholder="详情展示..." class="form-control" name="top-search" id="top-search">
                 </div>
-                <ul class="nav navbar-top-links navbar-right">
-                    <li>
-                        <a href="/thinkphp/admin/login/outlogin">
-                            <i class="fa fa-sign-out"></i> 退 出
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            </form>
         </div>
+        <ul class="nav navbar-top-links navbar-right">
+            <li>
+                <a href="/thinkphp/admin/login/outlogin">
+                    <i class="fa fa-sign-out"></i> 退 出
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
         <!--右侧header头 结束-->
 
         <!--右侧详情展示 开始-->
+
         <!--右侧详情展示 结束-->
 
         <!--右侧尾部信息 开始-->
         <div class="footer">
-            <div class="pull-right">
-                10GB of <strong>250GB</strong> Free.
-            </div>
-            <div>
-                <strong>Copyright</strong> Example Company &copy; 2014-2015
-            </div>
-        </div>
+    <div class="pull-right">
+        10GB of <strong>250GB</strong> Free.
+    </div>
+    <div>
+        <strong>Copyright</strong> Example Company &copy; 2014-2015
+    </div>
+</div>
         <!--右侧尾部信息 结束-->
     </div>
 </div>

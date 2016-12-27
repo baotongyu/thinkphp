@@ -748,3 +748,417 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
 
+[ 2016-12-27T01:01:18+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-12-27T01:01:18+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-12-27T01:01:19+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-12-27T01:01:19+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+
+[ 2016-12-27T01:01:26+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+
+[ 2016-12-27T01:01:26+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-12-27T01:01:27+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-12-27T01:03:17+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-12-27T01:03:17+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+
+[ 2016-12-27T01:03:18+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-12-27T01:03:18+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+
+[ 2016-12-27T01:03:18+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-12-27T01:03:18+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-12-27T01:03:18+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-12-27T01:03:18+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+
+[ 2016-12-27T01:03:18+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-12-27T01:03:18+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-12-27T01:03:19+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-12-27T01:03:19+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-12-27T01:03:20+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-12-27T01:05:24+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-12-27T01:05:24+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+
+[ 2016-12-27T01:14:10+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+
+[ 2016-12-27T01:14:10+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-12-27T01:14:11+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+
+[ 2016-12-27T01:14:11+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+
+[ 2016-12-27T01:18:47+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-12-27T01:18:47+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-12-27T01:20:53+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-27T01:20:53+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-27T01:22:45+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-12-27T01:22:45+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-12-27T01:30:23+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-12-27T01:30:23+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-12-27T01:30:24+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-12-27T01:30:24+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+
+[ 2016-12-27T01:30:26+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-12-27T01:30:26+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+
+[ 2016-12-27T01:30:37+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+
+[ 2016-12-27T01:30:37+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+
+[ 2016-12-27T01:32:27+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-12-27T01:32:27+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-12-27T01:33:52+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-27T01:33:52+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+
+[ 2016-12-27T01:33:53+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-12-27T01:33:53+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+
+[ 2016-12-27T01:35:18+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-12-27T01:35:18+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+
+[ 2016-12-27T01:35:22+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2016-12-27T01:35:22+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2016-12-27T01:35:22+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-12-27T01:35:22+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-12-27T01:35:23+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-12-27T01:35:23+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+
+[ 2016-12-27T01:35:23+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-12-27T01:35:23+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+
+[ 2016-12-27T01:35:23+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-12-27T01:35:23+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-12-27T09:06:48+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+
+[ 2016-12-27T09:06:48+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+
+[ 2016-12-27T09:54:40+08:00 ] ::1 /thinkphp/index.php/thinkphp/admin/plate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-27T10:02:36+08:00 ] ::1 /thinkphp/index.php/thinkphp/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-27T10:04:25+08:00 ] ::1 /thinkphp/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Index
+
+[ 2016-12-27T10:04:33+08:00 ] ::1 /thinkphp/index.php/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+ERR: 无法加载模块:Index
+

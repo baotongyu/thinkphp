@@ -1,0 +1,18 @@
+[ 2016-12-28T00:53:25+08:00 ] ::1 /thinkphp/Public/admin/js/themes/simple/simple.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T00:53:25+08:00 ] ::1 /thinkphp/Public/admin/js/themes/default/default.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T00:53:25+08:00 ] ::1 /thinkphp/Public/admin/js/lang/zh_CN.js?ver=4.1.10%20(2013-11-23)
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:Public
+

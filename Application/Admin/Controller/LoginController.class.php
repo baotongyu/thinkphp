@@ -16,7 +16,7 @@ class LoginController extends Controller
     	$res = $m->find();
     	if($res['uname']==$_POST['uname'] && $res['password']==md5($_POST['password'])){
     		session('name',$_POST['uname']);
-			$this->success('登录成功',U('admin/index/index'));
+			$this->success('登录成功','/thinkphp/admin/index/index');
 		}else{
     		$this->error('登录失败');
 		}
