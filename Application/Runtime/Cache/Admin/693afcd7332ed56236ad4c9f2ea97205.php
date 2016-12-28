@@ -62,7 +62,9 @@
                 <li>
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试题管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="/thinkphp/admin/questions/index">查看试题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index1">查看单选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index2">查看多选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index3">查看判断题</a></li>
                         <li><a href="/thinkphp/admin/questions/add1">添加单选题</a></li>
                         <li><a href="/thinkphp/admin/questions/add2">添加多选题</a></li>
                         <li><a href="/thinkphp/admin/questions/add3">添加判断题</a></li>
@@ -74,7 +76,12 @@
                 <li>
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试卷管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="/thinkphp/admin/test/index">查看试卷</a></li>
+                        <li><a href="/thinkphp/admin/test/index1">查看初中试卷(语文)</a></li>
+                        <li><a href="/thinkphp/admin/test/index2">查看初中试卷(数学)</a></li>
+                        <li><a href="/thinkphp/admin/test/index3">查看高中试卷(物理)</a></li>
+                        <li><a href="/thinkphp/admin/test/index4">查看高中试卷(化学)</a></li>
+                        <li><a href="/thinkphp/admin/test/index5">查看大学试卷(高数)</a></li>
+                        <li><a href="/thinkphp/admin/test/index6">查看大学试卷(概率论)</a></li>
                         <li><a href="/thinkphp/admin/test/add">添加试卷</a></li>
                     </ul>
                 </li>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>后台首页</title>
+    <title>后台试卷修改</title>
     <link href="../../../../thinkphp/Public/admin/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">
@@ -62,8 +62,12 @@
                 <li>
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试题管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="/thinkphp/admin/questions/index">查看试题</a></li>
-                        <li><a href="/thinkphp/admin/questions/add">添加试题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index1">查看单选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index2">查看多选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index3">查看判断题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add1">添加单选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add2">添加多选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add3">添加判断题</a></li>
                     </ul>
                 </li>
                 <!--试题管理 结束-->
@@ -72,7 +76,13 @@
                 <li>
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试卷管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="/thinkphp/admin/test/index">查看试卷</a></li>
+                        <li><a href="/thinkphp/admin/test/index">查看所有试卷</a></li>
+                        <li><a href="/thinkphp/admin/test/index1">查看初中试卷(语文)</a></li>
+                        <li><a href="/thinkphp/admin/test/index2">查看初中试卷(数学)</a></li>
+                        <li><a href="/thinkphp/admin/test/index3">查看高中试卷(物理)</a></li>
+                        <li><a href="/thinkphp/admin/test/index4">查看高中试卷(化学)</a></li>
+                        <li><a href="/thinkphp/admin/test/index5">查看大学试卷(高数)</a></li>
+                        <li><a href="/thinkphp/admin/test/index6">查看大学试卷(概率论)</a></li>
                         <li><a href="/thinkphp/admin/test/add">添加试卷</a></li>
                     </ul>
                 </li>
@@ -116,7 +126,61 @@
         <!--右侧header头 结束-->
 
         <!--右侧详情展示 开始-->
-        这是试卷修改页面  <a href="/thinkphp/admin/test/update">执行修改操作</a>
+        <div class="ibox-content">
+            <form action="/thinkphp/admin/test/update" method="post" class="form-horizontal">
+                <div class="form-group"><label class="col-sm-2 control-label">试卷题目：</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="sname" value="<?php echo ($data['sname']); ?>">
+                        <input type="hidden" name="id" value="<?php echo ($data['id']); ?>">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">科目：</label>
+                    <div class="col-sm-10">
+                        <select class="form-control m-b" name="tid">
+                            <option>请选择...</option>
+                            <?php if(is_array($res)): foreach($res as $key=>$vo): ?><option value="<?php echo ($vo['id']); ?>"><?php echo ($vo['pname']); ?></option><?php endforeach; endif; ?>
+                        </select>
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">难易程度：</label>
+                    <div class="col-sm-10">
+                        <select class="form-control m-b" name="status">
+                            <option>请选择...</option>
+                            <option value="1">简单</option>
+                            <option value="2">适中</option>
+                            <option value="3">有点难</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">试卷内容：</label>
+                    <div class="col-sm-10">
+                        <div>
+                            <label>
+                                <textarea cols="70" rows="30"  name="content" id="container"><?php echo ($data['content']); ?></textarea>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <button class="btn btn-primary" type="submit">修 改</button>
+                        <button class="btn btn-primary" type="reset">重 置</button>
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+            </form>
+            <script type="text/javascript">
+                CKEDITOR.replace('content',{
+                    toolbar : 'Full',
+                    uiColor : '#9AB8F3',
+                    height:'300'
+                });
+            </script>
+        </div>
         <!--右侧详情展示 结束-->
 
         <!--右侧尾部信息 开始-->
@@ -131,6 +195,16 @@
         <!--右侧尾部信息 结束-->
     </div>
 </div>
+
+<!-- 配置文件 -->
+<script type="text/javascript" src="../../../../thinkphp/Public/ckeditor/ueditor.config.js"></script>
+<!-- 编辑器源码文件 -->
+<script type="text/javascript" src="../../../../thinkphp/Public/ckeditor/ueditor.all.js"></script>
+<script type="text/javascript" charset="utf-8" src="../../../../thinkphp/Public/ckeditor/lang/zh-cn/zh-cn.js"></script>
+<!-- 实例化编辑器 -->
+<script type="text/javascript">
+    var ue = UE.getEditor('container');
+</script>
 
 <!-- Mainly scripts -->
 <script src="../../../../thinkphp/Public/admin/js/jquery-2.1.1.js"></script>
