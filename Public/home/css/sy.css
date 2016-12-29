@@ -1,0 +1,32 @@
+﻿HTML {
+	BORDER-BOTTOM-STYLE: none; OVERFLOW-X: hidden; OVERFLOW-Y: auto; BORDER-LEFT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+
+.in0r{ padding-right:30px;}
+.in0n{ padding:15px 0 0 120px;}
+
+/*center*/
+.bk07_main{ width:980px; margin:0 auto; clear:both;} 
+.bk07_c1{ width:980px; float:left;}
+.bk07_c1 h1{ font-size:24px; line-height:30px; font-weight:normal; color:#000; padding-bottom:5px;padding-left:13px;}
+.bk07_c1 h1 span{ font-size:14px; line-height:30px; font-weight:normal; color:#666; padding-left:10px;vertical-align:bottom;}
+
+.bk07_c1 .bk07_c1d{ width:980px; background:#FFF; float:left;border-radius:5px; border:1px solid #CECECE;
+-moz-box-shadow: 1px 1px 1px #CECECE;
+-webkit-box-shadow: 1px 1px 1px #CECECE;
+box-shadow: 1px 1px 1px #CECECE;
+    /* For IE 8 */
+ -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#CECECE')";
+    /* For IE 5.5 - 7 */
+ filter: progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#CECECE');}
+
+.bk07_c1 .bk07_c1d .bk07_c1d1{ width:980px; height:320px; border-bottom:1px solid #CECECE; float:left;}
+.bk07_c1 .bk07_c1d .bk07_c1d1 .bk07_c1d1a{ width:326px; height:297px; color:#666; font-size:12px; line-height:18px; text-align:center; padding-top:23px; float:left;}
+.bk07_c1 .bk07_c1d .bk07_c1d1 .bk07_c1d1a h2{ font-size:16px; font-weight:bold; line-height:28px; color:#000; padding-bottom:3px;}
+.bk07_c1 .bk07_c1d .bk07_c1d1 .bk07_c1d1b{ width:326px; height:297px; color:#666; font-size:12px; line-height:18px; text-align:center; padding-top:23px; float:left; border-left:1px solid #CECECE; border-right:1px solid #CECECE;}
+.bk07_c1 .bk07_c1d .bk07_c1d1 .bk07_c1d1b h2{ font-size:16px; font-weight:bold; line-height:28px; color:#000; padding-bottom:3px;}
+.bk07_c1 .bk07_c1d .bk07_c1d1 a{ display:block;}
+
+A.bk07_feilink{ width:85px; height:24px; background:url(http://www.mokaoba.com/images/sy/in07_feilink.jpg) no-repeat; cursor:pointer; float:left;}
+A.bk07_feihover,A.bk07_feilink:hover{ width:85px; height:24px; background:url(http://www.mokaoba.com/images/sy/in07_feihover.jpg) no-repeat; cursor:pointer; float:left;}
+.b99, .b99 a:link, .b99 a:visited, .b99 a:active {color: #CD0000;}

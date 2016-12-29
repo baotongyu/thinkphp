@@ -5,9 +5,20 @@ use Think\Controller;
 
 class TestController extends Controller
 {
-    public function index()
+    public function index($id)
     {
-        echo '这是考试页面';
+        //echo '这是考试页面';
+//		$t = M('Test');
+//		$test = $t->where('id='.$id)->find();
+//		$this->assign('test',$test); // 传递试卷名称
+//		$pan = explode(',',$test['panduan']);
+//		$p = M('Panduan');
+//		foreach($pan as $k=>$v){
+//			$ti = $p->where('id='.$v)->find();
+//			$arr[] = $ti;
+//		}
+//		$this->assign('ti',$arr);
+		$this->display('test/index');
     }
     
     // 执行考试提交操作

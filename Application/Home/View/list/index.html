@@ -1,1 +1,95 @@
-分页浏览  <a href="/thinkphp/home/detail/index">了解详情</a>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>在线考试试卷列表</title>
+    <link rel="stylesheet" type="text/css" href="../../../../thinkphp/Public/home/css/mokaoba.css">
+    <link rel="stylesheet" type="text/css" href="../../../../thinkphp/Public/home/css/daohanglan.css">
+    <!--<link rel="stylesheet" type="text/css" href="../../../../thinkphp/Public/home/css/sy.css">-->
+    <script type="text/javascript" src="../../../../thinkphp/Public/home/js/jquery1.42.min.js"></script>
+    <script type="text/javascript" src="../../../../thinkphp/Public/home/js/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+<body>
+<!--header头 开始-->
+<include file="./Application/Home/View/index/header1.html" />
+<!--header头 结束-->
+
+<!--主体内容 开始-->
+<div class="lc">
+    <div><span class="n1">1.选择试题</span><span class="n2">2.注册/登陆</span><span class="n3">3.开始答题</span><span class="n4">4.提交试卷</span><span class="n5">5.查看成绩</span><span class="n6">6.答案解析</span></div>
+</div>
+<div class="bread">
+    <span>您的位置：</span>
+    <a title="" href="/">在线考试中心</a>&nbsp;&gt;
+    <a href="">医学</a>&nbsp;&gt;
+    <a href="">全国卫生专业技术资格考试(中初级)</a>&nbsp;&gt; 放射医学技师
+</div>
+<div class="mainContent m2"> <!--主体内容-->
+    <div class="mainList">
+        <div class="nav">
+            <a href="" class="on"><strong>全部试题</strong></a>
+            <a href=""><strong>模拟试题</strong></a>
+            <a href=""><strong>历年真题</strong></a>
+            <a href=""><strong>预测题</strong></a>
+        </div>
+        <div class="area">
+            <div class="hy">
+                <a href="">相关专业知识</a>
+                <a href="">基础知识</a>
+                <a href="">专业实践能力</a>
+                <a href="">专业知识</a>
+            </div>
+        </div>
+        <div class="sjTitle">
+            <div class="cs">
+                <span>试卷预览</span>
+                <span>进入考试</span>
+            </div>
+            <div class="bt">
+                <span>试卷标题</span>
+            </div>
+        </div>
+        <div class="sjList">
+            <ul>
+                <foreach name="test" item="vo">
+                <li>
+                    <div>
+                        <div class="newtitle">
+                            <span class="mKemu">
+                                <a href="" target="_blank">[专业实践能力]</a>
+                            </span>
+                            <a class="mTitle" href="/thinkphp/home/detail/index?id={$vo['id']}" target="_blank">{$vo['sname']}</a>
+                        </div>
+                        <span class="time"><a href="/thinkphp/home/detail/index?id={$vo['id']}" target="_blank" style="color:#c00;">查看试题</a></span>
+                        <div class="paper_btn">
+                            <a href="" target="_blank" class="exam_btn">进入考试</a>
+                        </div>
+                    </div>
+                </li>
+                </foreach>
+            </ul>
+            <div class="page">
+                <div id="AspNetPager1" class="Pager">
+                    <a disabled="disabled" style="margin-right:5px;">首页</a>
+                    <a disabled="disabled" style="margin-right:5px;">前一页</a>
+                    <span style="margin-right:5px;font-weight:Bold;color:red;">[1]</span>
+                    <a href="" style="margin-right:5px;">[2]</a>
+                    <a href="" style="margin-right:5px;">下一页</a>
+                    <a href="" style="margin-right:5px;">末页</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--主体内容 结束-->
+
+<hr width="100%" color="red">
+
+<!--footer尾部 开始-->
+<include file="./Application/Home/View/index/footer.html" />
+<!--footer尾部 结束-->
+</body>
+</html>

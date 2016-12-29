@@ -1,0 +1,318 @@
+	@charset "utf-8";
+
+/* CSS Document by chuangwang Tencent 2012.11.23 */
+
+/* css reset */
+
+body, ol, ul, h1, h2, h3, h4, h5, h6, p, th, td, dl, dd, form, fieldset, legend, input, textarea, select{margin:0;padding:0}
+body{font:14px "simsun","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%;}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+em{font-style:normal}
+li{list-style:none}
+img{border:0;vertical-align:middle}
+p{word-wrap:break-word}
+
+
+/* minNav css */
+
+.minNav{width:100%;height:30px;line-height:30px;background:url(../img/topN.png) repeat-x}
+.minNav .navInner{width:960px;margin:0 auto}
+.minNav span.homeIco{float:right;color:#666}
+.minNav span.homeIco a.index{padding:2px 0px 2px 20px;background:url(../img/homeIco.png) no-repeat}
+.minNav span.login a{padding:0px 5px}
+.minNav a{color:#666}
+.minNav a:hover{color:#cc0000}
+.minNav span.homeIco a.sina{padding-left:25px;background:url(../img/sina.gif) 0px -4px no-repeat}
+
+.banner span.spanBtn a,.sjTitle span,.botton a,.testbtn,.ico1,.ico2{background:url(../img/bg.png) no-repeat}
+.banner span.title{float:left;font:30px "Microsoft YaHei";margin:12px 0px 0px 10px;display:inline;padding-left:8px;border-left:1px solid #a4cec1;}
+.banner{width:1000px;margin:0px auto;overflow:hidden}
+.banner span{float:right;overflow:hidden}
+.banner span img{border:1px solid #f1f1f1;margin-top:1px}
+.banner .logo{float:left}
+.banner0{padding-bottom:10px;padding-top:5px}
+.banner span.spanBtn{overflow:hidden;margin-top:7px}
+.banner span.spanBtn a{float:left;width:100px;height:40px;font:18px/40px "Microsoft YaHei";color:#000;padding-left:20px;background-position:0px -104px;margin-left:6px;display:inline}
+.banner0{margin:20px auto}
+.banner span.spanBtn a:hover{color:#cc0000;text-decoration:none}
+.bread{width:950px;margin:0 auto;font-size:14px;height:40px;line-height:40px;padding-left:10px}
+.bread a{color:#559b00}
+
+.mainContent{width:960px;margin:0px auto;border:1px solid #dfdfdf;overflow:hidden}
+
+.mainContent h2{margin-bottom:10px;background:url(../img/bg.png) 40px 10px no-repeat}
+
+.mainContent h2.zyzg{background-position:70px 10px}
+.mainContent h2.gwy{background-position:54px 10px}
+
+.mainContent h2 span{font-size:16px;font-family:"Microsoft YaHei";font-weight:normal}
+.mainContent .colum0{float:left}
+.mainContent .colum0,.colum1{width:478px;border-right:1px solid #efefef;padding:0px 0px;overflow:hidden}
+.mainContent .colum0 a{font-size:14px;color:#000;line-height:30px;padding:0px 5px;white-space:nowrap;_padding:0px;_margin-right:6px}
+
+.mainContent .colum0 a.hot{color:#0092d6;position:relative;display:inline-block;_padding:0px}
+
+.mainContent .colum0 a.hot span{position:absolute;right:-10px;top:-8px;}
+
+.mainContent .colum0 a:hover{color:#cc0000}
+.mainContent .colum0 div{padding:12px 10px;border-bottom:1px solid #efefef;padding-bottom:11px;cursor:pointer}
+.mainContent .colum0 div.border{border-top:2px solid #fff;border-left:2px solid #fff;border-right:2px solid #fff;}
+.mainContent .colum0 div.wm{border-bottom:1px solid #fff}
+
+.mainContent .colum1{float:right;width:481px;border-right:none;}
+.mainContent .colum1 div{padding-left:10px}
+.mainContent .colum1 div.wy{width:238px;height:120px;border:2px solid #fff;border-bottom:1px solid #fff;border-right:1px solid #efefef;float:left;}
+.mainContent .colum1 div.fl{width:196px;height:120px;float:right;border:2px solid #fff}
+
+
+.mainContent .table{width:520px;margin:40px auto 0px auto}
+.mainContent td{border:1px solid #b2d982;line-height:30px;padding-left:10px}
+.mainContent td.title{background:#f0ffdf;text-align:center;font-size:14px;font-weight:800;padding:0}
+.mainContent td.name{text-align:center;font-size:14px;padding:0}
+.mainContent td.name strong{color:#ff6600}
+.mainContent .tips{height:35px;line-height:35px;color:#ff6600;padding-left:20px}
+.mainContent .botton{text-align:center;margin:10px auto 30px auto}
+.mainContent .botton a{display:inline-block;width:140px;height:30px;text-align:center;background-position:0px -162px;color:#417700;font:bold 16px/30px "simsun";margin:0 auto}
+.mainContent .botton a:hover{text-decoration:none;}
+
+.mainContent .m_left{width:650px;float:left;overflow:hidden;background:#fff}
+.mainContent .m_right{width:300px;float:right;}
+
+
+.m_left .picinfo{width:270px;float:left}
+.m_left .testTitle{height:40px;line-height:40px;font-size:14px;color:#333;border:1px solid #b2d982;background:#f6fdee;border-bottom:none;padding-left:15px}
+.m_left .testInfo{border:1px solid #e0e0e0;border-top:none;overflow:hidden}
+.m_left .testInfo .shiju{overflow:hidden;background:#fff;}
+.m_left .testInfo textarea{width:600px;height:80px;}
+.m_left .fontsinfo{width:340px;float:right;margin:10px 20px 0px 0px}
+.m_left .fontsinfo li{height:50px;line-height:50px;border-bottom:1px dotted #dedfde;color:#525552}
+.m_left .fontsinfo li.noborder{border:none}
+.m_right .hd{background:#f6fdee;border:1px solid #b2d982;border-bottom:none;line-height:40px;height:40px;margin:0px;overflow:hidden}
+.m_right .hd h2{font-size:12px;padding-left:10px;}
+.m_right .bd{border:1px solid #dfdfdf;border-top:none;padding:0px 15px 12px 0px}
+.m_right .bd li{height:24px;line-height:28px;padding-left:10px;padding-right:10px;overflow:hidden}
+.m_right .bd li a{color:#333;font-size:12px}
+
+
+.testbtn{display:block;width:223px;height:44px;background-position:0px -210px;text-indent:-10000px;margin-top:6px}
+.testbtn0{margin:20px auto 10px auto}
+.testInfo .read,.testInfo .notice{display:block;clear:both;color:#333;margin:20px 0px 0px 0px;padding:0px 25px}
+.testInfo li{height:24px;line-height:24px;color:#636563}
+.testInfo .ico1{background-position:0px -268px;padding-left:20px}
+.testInfo .ico2{background-position:0px -297px;padding-left:20px}
+
+.veiw{padding:15px 0px}
+.veiw .testtitle{font-size:14px;line-height:26px;background:#f7f7f7;border:1px solid #efefef;padding:10px;margin:0px 18px}
+.veiw .test1{border:1px dotted #adaaad;margin:10px auto 0px auto;width:622px;overflow:hidden}
+.veiw .num1{height:35px;line-height:35px;margin:0px 10px;border-bottom:1px dotted #adaaad}
+.veiw .num1 strong{color:red}
+.veiw .in p{line-height:30px;padding-left:15px}
+
+.veiw .reslut{background:#dedfde;font-size:14px;margin-top:15px;padding:0px 10px;line-height:30px}
+.veiw .reslut input{margin-right:30px;vertical-align:middle}
+.veiw .ico2{height:30px;line-height:30px;margin:0px 26px}
+.veiw .in{line-height:22px;padding:0px 2px} 
+.veiw pre{line-height:22px;word-wrap:break-word;}
+
+.e_juan02,.signDefault{line-height:22px;padding:0px 10px}
+.pl .plc{margin:0 15px;background:#f7f7f7;border:1px solid #efefef;color:#333;line-height:26px;font-size:14px;padding:10px}
+
+.signDefault{background:#dedfde;padding:10px;margin:10px 0px}
+.signDefault textarea{width:100%}
+
+.mainList{width:960px;float:left}
+.mainList .nav{height:46px;line-height:46px;border:1px solid #b2d982;border-bottom:2px solid #5c8e02}
+.mainList .nav a{float:left;color:#417700;font-size:14px;text-align:center;}
+.mainList .nav a strong{padding:4px 15px;}
+.mainList .nav a:hover{background:#dcf2c2;text-decoration:none;}
+/*.mainList .nav a:hover strong{border-left:1px solid #dcf2c2;}*/
+.mainList .nav a.on{background:url(../img/nav_bg.png) repeat-x;color:#fff}
+
+.area{border:1px solid #6ba700;border-top:none;padding:0px 10px 10px 10px;overflow:hidden;}
+.area a{color:#444;padding:0px 5px;margin:3px 5px;white-space: nowrap;display:inline-block}
+.area a:hover{background:#5daa00;color:#fff;text-decoration:none}
+.area a.on{background:#5daa00;color:#fff}
+.area .hy{line-height:24px;padding-top:10px}
+.area .hy span{margin-right:15px}
+.areaCity{margin-top:10px;float:left;overflow:hidden;margin-left:0px;border-top:1px solid #b2d982}
+.areaCity strong{float:left;line-height:12px;padding:5px 0px;color:#417700;margin-top:3px}
+.areaCity a{float:left;line-height:12px;margin:3px 5px;white-space:nowrap;display:inline}
+
+
+.sjTitle{height:36px;line-height:36px;background:url(../img/nav2.png) repeat-x;border:1px solid #b2d982;border-top:none;padding-left:20px;overflow:hidden}
+.sjTitle .cs{float:right;padding-right:5px}
+.sjTitle span{padding-right:15px;background-position:58px -23px;margin-left:15px}
+.sjList{border:1px solid #e0e0e0;border-top:none;padding:10px;}
+.sjList li{font-size:14px;color:#999;line-height:35px;overflow:hidden;border-bottom: 1px dashed #e6e6e6;margin-top: 8px;}
+
+.sjList li div.newtitle{width:760px;overflow:hidden;height:35px;line-height:35px;overflow:hidden;}
+
+.sjList li a{color:#999;float:left}
+.sjList li a:hover{color:#000}
+.sjList li span{float:left}
+.sjList li em{float:right;margin-right:5px;display:inline}
+.sjList li div{overflow:hidden;float:left;}
+.sjList li div.info{font-size:12px;line-height:16px;}
+.sjList li div.info span{margin-left:80px;display:inline;}
+.sjList li div.info span.xd{float:right;margin-right:100px;margin-left:0px}
+.sjList li div.info span.xd a{color:#000}
+.sjList .mTitle{height:35px;overflow:hidden;margin-left:10px;display:inline;color:#549a00;float:none}
+.sjList .time{width:80px;text-align:center;display:block;}
+.sjList .time span{display:block;width:100%}
+.sjList .mKemu{overfloat:hidden;}
+.sjList .jiexi{width:60px;text-align:center;}
+.sjList .jiexi span{display:block;width:100%}
+
+.sliderRight{width:230px;float:right}
+
+.page{text-align:center;height:30px;line-height:30px;margin-top:10px}
+.page a{color:#549a00;padding:2px 5px}
+.page a.on{background:#5daa00;color:#fff}
+.page a:hover{background:#5daa00;color:#fff;text-decoration:none}
+
+.b1,.m2{border:none;padding:0px}
+.m1{border-top:2px solid #79c320;}
+.m2{width:960px}
+.m3{padding:0px;width:960px;border:none}
+.lc{margin:10px auto 0px auto;width:810px;padding-left:150px;height:42px;line-height:42px;background:url(../img/tips.png) no-repeat;border:1px solid #dfdfdf;}
+.lc div{font-size:14px;color:#417700;font-weight:800}
+.lc div span{padding-left:30px}
+.lc div span.n1{padding-left:41px}
+.lc div span.n6,.lc div span.n7{padding-left:58px}
+.lc div span.n2{padding-left:50px}
+.lc div span.n3{padding-left:52px}
+.lc div span.n4{padding-left:55px}
+.lc div span.n5{padding-left:50px}
+
+.footer{text-align:center;margin-top:15px}
+.footer a{color:#666}
+.footer p{line-height:30px;color:#666}
+
+/*help*/
+
+.helpTitle{height:50px;line-height:50px;overflow:hidden}
+.helpTitle li{float:left}
+.helpTitle li a{display:block;font-size:16px;text-align:center;height:39px;line-height:39px;font-family:"Microsoft YaHei";color:#fff;width:158px;background:url(../img/hoverbg2.png) no-repeat;margin-right:2px;color:#000}
+.helpTitle li.on a{background:url(../img/hoverbg1.png) no-repeat;height:50px;margin-right:2px;width:160px;color:#fff;}
+.helpTitle li.last a{margin-right:0px}
+.banner1{border-bottom:none}
+.mainhelp{border:none}
+
+.askList{overflow:hidden;padding:20px}
+.askList .list1{width:430px;float:left;padding-right:30px}
+.askList .list1 .picli{height:75px;margin-bottom:10px;line-height:24px;}
+.askList .list1 .picli .pica{float:left;margin-right:10px}
+.askList .list1 .picli h2{margin-bottom:5px;font-size:14px;line-height:30px;background:none;padding-left:10px}
+.askList .list1 .picli h2 a{color:#00559c}
+.askList .list1 li{line-height:38px;}
+
+.askList .list1 li a{font-size:14px;color:#333;}
+.askList .list1 li a:hover{color:#cc0000}
+.askList .list1 .rightfonts{color:#8c8e8c;width:280px;float:right;}
+.askList .list2{margin-right:90px}
+
+.askList h3{color:#00559c;font-size:14px;height:30px;line-height:30px;padding-left:28px}
+.askList p.contents{line-height:26px;text-indent:1.5em;margin-top:10px}
+
+.askList h2{font: 20px/50px "simhei";padding-left:46px;color:#00559C}
+
+.class404{width:644px;height:274px;background:url(../img/404.png);margin:100px auto;overflow:hidden}
+.class404 p{text-align:center;line-height:30px;font-size:14px;font-weight:800;margin-top:180px}
+
+.askList div.table{width:90%;margin:0 auto;}
+.askList div.table table{width:90%}
+.askList div.table table td{line-height:45px;padding-left:10px;height:45px}
+.askList div.table table td strong{color:#a25c00}
+.askList p.zh{line-height:30px;padding-left:46px}
+
+.askList .inf p{line-height:24px;font:14px/30px 'simsun'}
+.askList .inf p img{vertical-align:middle;margin:0px 3px}
+.askList .notice{height:40px;background:#cc0000;color:#fff;line-height:40px;text-align:center;margin-top:15px;font-size:14px;font-family:'simhei'}
+
+.askList .kslc img{width:738px;margin:0 auto;margin-left:40px;margin-bottom:20px}
+.askList .kslc p{line-height:40px;font-size:14px;color:#333;text-indent:2em}
+.askList .kslc p strong{font-size:14px}
+
+/*exam-detail*/
+.ListenPlay {float: left;width: 126px;height: 24px;margin-left: 13px;margin-top:3px;background: url(/images/ListenPlay.gif) no-repeat;cursor: pointer;}
+
+.fav {
+height: 100px;
+background-color: #fff;
+}
+.bd {
+border: 1px solid #b2d982;
+background: #ffffff;
+}
+.fav h5 {
+font-weight: normal;
+color: #999;
+margin-top: 20px;
+margin-left: 13px;
+font-size: 12px;
+line-height: 16px;
+height: 16px;
+}
+.fav .share {
+margin-top: 10px;
+margin-left: 13px;
+}
+
+.tacw {
+background: none 0px 0px repeat scroll rgb(255, 226, 219);
+border: 1px solid rgb(204, 51, 0);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+color: rgb(204, 51, 0);
+margin: 10px 4px 10px 4px;
+padding: 4px;
+}
+.dzjs {
+border: 1px dashed rgb(255, 102, 0);
+border-image-source: initial;
+border-image-slice: initial;
+border-image-width: initial;
+border-image-outset: initial;
+border-image-repeat: initial;
+margin: 10px 4px 10px 4px;
+padding: 3px;
+}
+
+.bdsharelike {
+margin: 1em 0;
+clear: both;
+}
+.bdsharelike .bdlikebutton {
+margin: 0 auto;
+}
+
+.paper_btn {
+width:98px;
+float: right;
+}
+.paper_btn .download_btn {
+display: inline-block;
+width: 62px;
+height: 27px;
+padding-left: 30px;
+line-height: 27px;
+background: url(/images/paperks/dlbtn_1.png) center top no-repeat;
+font-size: 14px;
+color: #000;
+}
+.paper_btn .exam_btn {
+display: inline-block;
+width: 92px;
+height: 27px;
+line-height: 27px;
+font-size: 14px;
+text-align: center;
+font-weight: bold;
+color: #fff;
+background: url(../img/btn92x27_b.png) 0 0 no-repeat;
+}
+.paper_btn .exam_btn:hover{background:url(../img/btn92x27_a.png) 0 0 no-repeat;text-decoration:none;}

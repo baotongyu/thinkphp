@@ -50,3 +50,607 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
 
+[ 2016-12-28T19:26:26+08:00 ] ::1 /thinkphp/home/images/dot.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-12-28T19:26:26+08:00 ] ::1 /thinkphp/home/images/ad_ctr.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-12-28T20:29:39+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:39+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:39+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:39+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+
+[ 2016-12-28T20:29:47+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:47+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:47+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+
+[ 2016-12-28T20:29:47+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:47+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:47+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-12-28T20:29:48+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:48+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:48+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:48+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-12-28T20:29:48+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:48+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:48+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:48+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:49+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000135s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:50+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+
+[ 2016-12-28T20:29:51+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:51+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:29:51+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000122s ]
+
+[ 2016-12-28T20:30:35+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:30:35+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:30:35+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:30:35+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+
+[ 2016-12-28T20:31:15+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:31:15+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:31:15+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+
+[ 2016-12-28T20:31:15+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:31:15+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:31:15+08:00 ] ::1 /thinkphp/home/images/line.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-12-28T20:34:41+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:34:41+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:34:45+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:34:45+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:35:09+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:35:09+08:00 ] ::1 /thinkphp/Public/js/jquery.SuperSlide.2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T20:36:19+08:00 ] ::1 /thinkphp/Public/js/jquery1.42.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:Public
+
+[ 2016-12-28T21:25:50+08:00 ] ::1 /thinkphp/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-28T21:25:50+08:00 ] ::1 /thinkphp/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+
+[ 2016-12-28T21:25:50+08:00 ] ::1 /thinkphp/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-28T21:25:50+08:00 ] ::1 /thinkphp/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-28T21:25:50+08:00 ] ::1 /thinkphp/images/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+
+[ 2016-12-28T21:25:51+08:00 ] ::1 /thinkphp/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-12-28T21:25:51+08:00 ] ::1 /thinkphp/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+
+[ 2016-12-28T21:25:51+08:00 ] ::1 /thinkphp/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+
+[ 2016-12-28T21:25:51+08:00 ] ::1 /thinkphp/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+
+[ 2016-12-28T21:25:51+08:00 ] ::1 /thinkphp/images/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+
+[ 2016-12-28T21:25:52+08:00 ] ::1 /thinkphp/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-12-28T21:25:52+08:00 ] ::1 /thinkphp/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+
+[ 2016-12-28T21:25:52+08:00 ] ::1 /thinkphp/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+
+[ 2016-12-28T21:25:52+08:00 ] ::1 /thinkphp/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+
+[ 2016-12-28T21:25:52+08:00 ] ::1 /thinkphp/images/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+
+[ 2016-12-28T21:26:07+08:00 ] ::1 /thinkphp/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-12-28T21:26:07+08:00 ] ::1 /thinkphp/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-12-28T21:26:07+08:00 ] ::1 /thinkphp/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+
+[ 2016-12-28T21:26:07+08:00 ] ::1 /thinkphp/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-12-28T21:26:07+08:00 ] ::1 /thinkphp/images/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+
+[ 2016-12-28T21:26:10+08:00 ] ::1 /thinkphp/images/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+
+[ 2016-12-28T21:27:12+08:00 ] ::1 /thinkphp/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+
+[ 2016-12-28T21:27:59+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+
+[ 2016-12-28T21:30:25+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-12-28T21:30:25+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+
+[ 2016-12-28T21:30:25+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+
+[ 2016-12-28T21:30:25+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-28T21:30:25+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+
+[ 2016-12-28T21:30:30+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+
+[ 2016-12-28T21:30:30+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-12-28T21:30:30+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+
+[ 2016-12-28T21:30:30+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+
+[ 2016-12-28T21:30:30+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+
+[ 2016-12-28T21:30:45+08:00 ] ::1 /thinkphp/Application/Home/View/index/images/1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+

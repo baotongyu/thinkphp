@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>后台所有试卷查看</title>
+    <title>后台试卷查看</title>
     <link href="../../../../thinkphp/Public/admin/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">
@@ -76,13 +76,7 @@
                 <li>
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试卷管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="/thinkphp/admin/test/index">查看所有试卷</a></li>
-                        <li><a href="/thinkphp/admin/test/index1">查看初中试卷(语文)</a></li>
-                        <li><a href="/thinkphp/admin/test/index2">查看初中试卷(数学)</a></li>
-                        <li><a href="/thinkphp/admin/test/index3">查看高中试卷(物理)</a></li>
-                        <li><a href="/thinkphp/admin/test/index4">查看高中试卷(化学)</a></li>
-                        <li><a href="/thinkphp/admin/test/index5">查看大学试卷(高数)</a></li>
-                        <li><a href="/thinkphp/admin/test/index6">查看大学试卷(概率论)</a></li>
+                        <li><a href="/thinkphp/admin/test/index">查看试卷</a></li>
                         <li><a href="/thinkphp/admin/test/add">添加试卷</a></li>
                     </ul>
                 </li>
@@ -162,7 +156,6 @@
                                     <td class="center"><?php if($vo['status']==1) echo '简单'; elseif($vo['status']==2) echo '适中'; else echo '有点难';?></td>
                                     <td class="center">
                                         <a href="/thinkphp/admin/test/look?id=<?php echo ($vo['id']); ?>">查看详情</a> ||
-                                        <a href="/thinkphp/admin/test/edit?id=<?php echo ($vo['id']); ?>">编辑</a> ||
                                         <a href="/thinkphp/admin/test/del?id=<?php echo ($vo['id']); ?>">删除</a>
                                     </td>
                                 </tr><?php endforeach; endif; ?>

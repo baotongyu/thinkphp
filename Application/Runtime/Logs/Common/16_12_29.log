@@ -1,0 +1,309 @@
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/plugins/toastr/toastr.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000148s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/jquery-2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/jquery-ui-1.10.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/inspinia.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/inspinia.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:34:22+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/plugins/toastr/toastr.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/jquery-2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/inspinia.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/jquery-ui-1.10.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/inspinia.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:35:44+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/bootstrap.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/font-awesome/css/font-awesome.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/plugins/toastr/toastr.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/animate.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/css/style.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/jquery-2.1.1.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/inspinia.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/jquery-ui-1.10.4.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/bootstrap.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/img/profile_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/metisMenu/jquery.metisMenu.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/slimscroll/jquery.slimscroll.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/inspinia.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+ERR: 无法加载模块:Thinkphp
+
+[ 2016-12-29T15:36:00+08:00 ] ::1 /thinkphp/index.php/thinkphp/Public/admin/js/plugins/pace/pace.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Thinkphp
+

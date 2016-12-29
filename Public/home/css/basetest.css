@@ -1,0 +1,102 @@
+@charset "utf-8";
+/**  全局样式  **/
+*
+{
+    word-break: break-all;
+    word-wrap: break-word;
+}
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form,p,input, select, button, textarea, iframe, table, th, td { margin: 0; padding: 0; }
+img { border: 0 none; vertical-align: top; }
+ul, li { list-style-type: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 14px; }
+body, input, select, button, textarea { font-size: 12px; font-family:"宋体"; }
+button { cursor: pointer; }
+i, em, cite { font-style: normal; }
+body { background: #fafcfe; color: #666; line-height: 1.2; }
+a, a:link { color: #2f3743; text-decoration: none; }
+a:visited {}
+a:active, a:hover {text-decoration: underline;color:#ff6600;}
+a:focus { outline: none; }
+.fixed:after { content: "."; display: block; clear: both; height: 0; visibility: hidden; }
+.fixed { display: block; min-height: 1%; }
+*html .fixed { height: 1%; }
+.more { float: right; }
+.more a { font-weight: normal; font-size: 12px; }
+.fl, .fr { display: inline; float: left; }
+.fr { float: right; }
+.clear{clear:both}
+.h8{ height: 8px; overflow: hidden; clear:both}
+.h10{ height: 10px; overflow: hidden; clear:both}
+.h12{ height: 12px; overflow: hidden; clear:both}
+.h13{ height: 13px; overflow: hidden; clear:both}
+.h15{ height: 15px; overflow: hidden; clear:both}
+.h20{ height: 20px; overflow: hidden; clear:both}
+.h25{ height: 25px; overflow: hidden; clear:both}
+.h27{ height: 27px; overflow: hidden; clear:both}
+.h63{ height: 63px; overflow: hidden; clear:both}
+.width960{width: 960px; margin:0 auto;}
+.hidden {DISPLAY:none}
+.orange{color:#ff6600}
+.orange a{color:#ff6600}
+.orange a:hover{color:#ff6600}
+.gray{color:#c6c5c5}
+.arial{font-family:Arial;font-size:12px;font-weight:normal}
+.arial2{font-family:Arial;font-size:16px;color:#ff6600}
+.subd_color{color:#788eb7}
+.subd_color a{color:#788eb7;width:212px;overflow:hidden;display:block;height:20px;}
+.subd_color a:hover{color:#00a000;}
+.subd_color2{color:#788eb7}
+.subd_color2 a{color:#788eb7;}
+.subd_color2 a:hover{color:#00a000;}
+.green{color:#00a000;}
+.green a{color:#00a000;}
+.green a:hover{color:#00a000;}
+.blue{color:#0090c5}
+.bold{font-weight:bold}
+.basic_color{color:#2f3743;}
+.black{color:#000}
+.red{color:#F00}
+.padding_up{padding-top:6px;float:left}
+.padding_up2{padding-top:10px;float:left;width:100%;}
+.padding_up3{padding-top:4px;float:left;width:100%;}
+.font14{font-size:14px}
+
+/**  头部部分  **/
+.testing_header{height:63px;background:url(/images/paperks/testing_header_bg.png) repeat-x;position:fixed;_position:absolute;top:0px;width:100%;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop));z-index:888;left:0;}
+.testing_logo{width:242px;height:32px;padding-top:15px;}
+.count_down{width:261px;height:54px;background:url(/images/paperks/count_down_bg.png) no-repeat;margin:4px 0 0 21px;}
+.count_down .time{padding-left:56px;line-height:18px;font-weight:bold;padding-top:7px;text-align:center;width:74px;}
+.count_down .time_f{color:#ff6600;font-size:16px;}
+.count_down .number{width:112px;padding:16px 0 0 9px;}
+.count_down .number ul{}
+.count_down .number li{float:left;width:25px;padding-left:10px;color:#ff6600;font-weight:bold;font-size:14px}
+.testing_header .righter{width:410px;}
+.function_button{width:297px;padding-top:16px;}
+.function_button ul{}
+.function_button li{float:left;width:85px;height:36px;padding-left:14px;}
+.testing_header .righter .user{width:100px;}
+.drop2{background:url(/images/paperks/user_san.gif) no-repeat right center;}
+/***   子菜单样式   ***/
+#sidebar2{position:relative;width:100px;}
+.sidelist2{}
+.sidelist2 span h3{position:relative;z-index:2;height:63px;line-height:63px;display:block;float:left;font-weight:normal;width:100px;text-align:center;font-size:12px;overflow:hidden}
+.sidelist2 span h3 a{color:#f5ff5b;display:block;width:100px;height:63px;line-height:63px;}
+.sidelist2 span h3 a:hover{color:#fff;background:url(/images/paperks/user_bg.png) no-repeat;text-decoration:none;width:100px;height:63px;}
+.i-list2{position:absolute;z-index:1000;left:0px;top:63px;background:#3f9715;width:100px;display:none}
+.i-list3{padding-top:10px;width:108px}
+.i-list3 ul{width:100%}
+.i-list3 li{line-height:22px;color:#fff;text-align:center;clear:both;width:100%}
+.i-list3 li a{color:#FFF;display:block;}
+.i-list3 li a:hover{color:#f5ff5b;}
+.hover2{background:url(/images/paperks/user_bg.png) no-repeat;}
+.header_btn{width:333px;padding-top:15px;padding-left:10px;}
+.header_btn ul{}
+.header_btn li{float:left;width:97px;height:36px;padding-left:14px;}
+
+
+/**  版权  **/
+.footer{text-align:center;line-height:24px;color:#666}
+.footer a{color:#666}
+.footer a:hover{color:#2f3743}
+
+

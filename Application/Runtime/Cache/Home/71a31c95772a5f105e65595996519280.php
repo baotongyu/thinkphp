@@ -1,4 +1,4 @@
-<!doctype html>
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,32 @@
 </head>
 <body>
 <!--header头 开始-->
-<include file="./Application/Home/View/index/header1.html" />
+<!--顶部登录/注册 开始-->
+<div class="minNav">
+    <div class="navInner">
+        <span class="homeIco">
+            <a class="myTest" href="" rel="nofollow">会员中心</a> |
+            <a class="sina" href="" target="_blank" rel="nofollow">官方微博</a>
+        </span>
+        <span class="login" id="ks110_LoginView">欢迎来到在线考试(kaoshi.com)
+            <a href="" class="login-header" rel="nofollow">登录</a>
+            <a href="" class="zhuce-header" rel="nofollow">免费注册</a>
+        </span>
+        <span class="login" style="display:none;" id="ks110_LoginStatus">
+            <strong><span id="ks110_CurrentUser"></span></strong>，您好。
+            <a id="ks110_LoginOut" href="" rel="nofollow">[点此退出]</a>
+        </span>
+    </div>
+</div>
+<!--顶部登录/注册 结束-->
+
+<!--logo图 开始-->
+<div class="banner b1">
+    <a class="logo" href="">
+        <img src="../../../../thinkphp/Public/home/img/logo1.jpg" width="100%" height="100px" title="在线考试" alt="在线考试logo">
+    </a>
+</div>
+<!--logo图 结束-->
 <!--header头 结束-->
 
 <!--主体内容 开始-->
@@ -114,7 +139,31 @@
 <hr width="100%" color="red">
 
 <!--footer尾部 开始-->
-<include file="./Application/Home/View/index/footer.html" />
+<div class="footer">
+    <p>
+        <a href="" rel="nofollow">联系我们</a>&nbsp;&nbsp;
+        <a href="" rel="nofollow">版权说明</a>&nbsp;&nbsp;
+        <a href="" rel="nofollow">帮助中心</a>
+    </p>
+    <p>湘ICP备11011645号</p>
+    <p>
+        友情链接:
+        <a href="">WPS官方网站</a>
+        <a href="">听课室网</a>
+        <a href="">考试在线网</a>
+        <a href="">法律知识</a>
+        <a href="">睡前故事</a>
+        <a href="">候车亭</a>
+        <a href="">SEO技术教程</a>
+        <a href="">SEO研究中心</a>
+        <a href="">网络营销</a>
+        <a href="">生活社区</a>
+        <a href="">汕头i尚网</a>
+        <a href="">PPT模板</a>
+        <a href="">聊城钢管厂家</a>
+        <a href="">做题室</a>
+    </p>
+</div>
 <!--footer尾部 结束-->
 </body>
 </html>

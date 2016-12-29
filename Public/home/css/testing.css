@@ -1,0 +1,304 @@
+@charset "utf-8";
+/**  内容部分  **/
+.testing_position{color:#2f3743;background:url(/images/paperks/position_icon.png) no-repeat left 0px;padding-left:26px;line-height:20px;font-size:12px;}
+.testing_content{border:1px solid #d6d6d6;background:#fff;}
+.testing_content .title{background:url(../img/testing_left_bg.png) repeat-x;height:65px;line-height:65px;}
+.testing_content .title h4{font-family:"微软雅黑";color:#339900;font-size:18px;font-weight:normal;text-align:center}
+.testing_content .content{padding:0 22px;}
+.testing_content .content_title{text-align:center;color:#979696}
+.papers_illustrate{position:relative;width:621px;margin:0 auto}
+.illustrate_t{padding:0 10px;height:21px;background:#fff;line-height:21px;color:#2f3743;text-align:center;font-weight:bold;position:absolute;top:0;z-index:33;left:50px;}
+.illustrate_c{width:619px;height:105px;border:1px solid #b8b8b8;background:#fff;position:relative;top:10px;left:0px;}
+.illustrate_c ul{width:510px;margin:0 auto;padding-top:16px;}
+.illustrate_c li{width:162px;float:left;line-height:25px;color:#666;padding-right:8px;}
+.illustrate_c dl{}
+.illustrate_c dt{float:left}
+.illustrate_c dd{float:left;line-height:19px;}
+.illustrate_c p{line-height:24px;color:#2f3743;padding:15px 0 0 20px;}
+.subject_btn{text-align:center;height:auto;}
+.subject_btn .input1{background:#737c71;color:#FFF;font-weight:bold;font-size:14px; cursor:pointer; vertical-align:middle;height:34px; padding:0 15px 0 15px; width:auto; margin:0 3px;}
+.subject_btn .input2{background:#737c71;color:#333;font-weight:bold;background:url(/images/paperks/subject_bg.png) repeat-x; font-size:14px; cursor:pointer; vertical-align:middle;height:34px; padding:0 15px 0 15px; width:auto; margin:0 3px;border-left:1px solid #969da4;border-right:1px solid #969da4;}
+
+.subject_btn .input11{background:#737c71;color:#FFF;font-weight:bold;font-size:14px; cursor:pointer; vertical-align:middle;height:34px; padding:0 15px 0 15px; width:auto; margin:0 3px;}
+.subject_btn .input22{background:#737c71;color:#333;font-weight:bold;background:url(/images/paperks/subject_bg.png) repeat-x; font-size:14px; cursor:pointer; vertical-align:middle;height:34px; padding:0 15px 0 15px; width:auto; margin:0 3px;border-left:1px solid #969da4;border-right:1px solid #969da4;}
+.mark_ans_img_ing{height:22px; line-height:22px; width:127px; background:url(/images/paperks/test_jiaru_error4.gif) no-repeat center top;}
+.mark_ans_img1_ing{height:22px; line-height:22px; width:127px; background:url(/images/paperks/test_jiaru_error4.gif) no-repeat center bottom;}
+
+.paper_title{background:#f4f4f4;height:37px;line-height:37px;font-size:14px;padding-left:10px;font-weight:bold;color:#2f3743;border-top:2px solid #32be00;border-bottom:1px solid #dcdcdc;}
+.paper_content{}
+.paper_content1{padding-top:12px;}
+.paper_content1_border{border:1px solid #50b926}
+.paper_content1 .toper{padding-left:10px;}
+.paper_content1 .toper h5{font-weight:normal;font-size:14px;color:#333;}
+.paper_content1 .toper ul{padding-top:8px;}
+.paper_content1 .toper li{color:#333;line-height:24px;font-size:14px}
+.paper_content1 .resolve{height:42px;background:#f3f3f3}
+.paper_content1 .resolve h5{float:left;width:60px;line-height:42px;padding-left:10px;color:#333}
+.paper_content1 .resolve .key{width:388px;}
+.paper_content1 .resolve .key ul{padding:7px 0 0 5px;}
+.paper_content1 .resolve .key li{float:left;height:28px;margin-right:4px;background:url(/images/paperks/option_link.png) no-repeat;text-align:center;line-height:28px;color:#013e77;font-size:16px;font-family:Arial;}
+.paper_content1 .resolve .key li a{text-decoration:none;padding-left:6px;width:55px;display:block}
+.paper_content1 .resolve .key li a:hover{background:url(/images/paperks/option_hover.png) no-repeat;height:28px;display:block;color:#013e77;}
+.paper_content1 .resolve .key li a.select{background:url(/images/paperks/option_select.png) no-repeat;height:28px;display:block;color:#FFF;}
+.paper_content1 .resolve .key2{width:388px;}
+.paper_content1 .resolve .key2 ul{padding:7px 0 0 5px;}
+.paper_content1 .resolve .key2 li{float:left;height:28px;margin-right:4px;background:url(/images/paperks/fukuang.png) no-repeat;text-align:center;line-height:28px;color:#013e77;font-size:16px;font-family:Arial;}
+.paper_content1 .resolve .key2 li a{text-decoration:none;padding-left:8px;width:53px;display:block}
+.paper_content1 .resolve .key2 li a:hover{background:url(/images/paperks/fukuang_hover.png) no-repeat;height:28px;display:block;color:#013e77;}
+.paper_content1 .resolve .key2 li a.select{background:url(/images/paperks/fukuang_click.png) no-repeat;height:28px;display:block;color:#FFF;}
+
+.fill_position{}
+.fill_text{height:100px;width:908px;border:1px solid #cdcdcd;line-height:20px;padding:2px;}
+
+.relevant_btn{width:446px;padding-top:6px;}
+.relevant_btn ul{}
+.relevant_btn li{float:left;padding-right:3px;}
+.situation_num{text-align:center;color:#2f3743;font-size:14px}
+.cut_question{}
+.cut_question ul{width:224px;margin:0 auto;}
+.cut_question li{height:32px;}
+.cut_question .line{background:#32be00;height:4px;overflow:hidden}
+.hand_paper{width:182px;height:50px;margin:0 auto;}
+.testing_banner{width:914px;}
+
+/** 反馈按钮 **/
+.feedback_bg_lx{Z-index:999;width:71px;height:21px;position:fixed;_position:absolute;bottom:20px;right:148px;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+.feedback_lx{width:52px;height:24px;background:url(/images/paperks/feedback_bg.png) no-repeat;padding:0px 0px 0 21px;color:#339900;line-height:24px;}
+.feedback_lx a{color:#339900;text-decoration:none}
+.feedback_lx a:hover{color:#ff6600;}
+.top_lx{width:52px;height:23px;background:url(/images/paperks/top_bg.png) no-repeat;padding:0px 0px 0 21px;color:#3e503e;line-height:24px;}
+.top_lx a{color:#3e503e;text-decoration:none}
+.top_lx a:hover{color:#ff6600;}
+
+
+.top_lx_lx{width:32px;height:32px;Z-index:999;position:fixed;_position:absolute;bottom:20px;right:180px;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+
+/** 查看成绩页面 反馈按钮 **/
+.feedback_bg{position:absolute;Z-index:999;top:650px;right:160px;width:32px;height:124px;clear: both;}
+.feedback{width:12px;height:69px;background:url(/images/paperks/feedback_bg_result.png) no-repeat;padding:28px 10px 0 10px;color:#339900;line-height:16px;}
+.feedback a{color:#339900;text-decoration:none}
+.feedback a:hover{color:#ff6600;}
+.top{width:32px;height:27px;}
+
+
+
+/** 题目快速导航 **/
+.fast_menu{width:212px;background:#f7f7f7;border:1px solid #c5c5c5;position:fixed;_position:absolute;top:113px;_bottom:auto;z-index:888;right:6px;_top:expression(eval(document.documentElement.scrollTop));_margin-top:113px;overflow:hidden}
+.fast_menu .title{background:#8f8f8f;height:32px;}
+.fast_hidden{width:14px;height:13px;padding:9px 0 0 10px;}
+.fast_menu .title h5{width:168px;float:left;text-align:center;color:#fff;font-weight:normal;font-family:"微软雅黑";font-size:16px;line-height:26px;}
+.fast_closed{width:10px;height:9px;padding:11px 10px 0 0;}
+.fast_menu .content{padding:0 14px;}
+.fast_menu .content1 h6{font-weight:normal;font-size:14px;color:#2f3743;width:164px;float:left}
+.take_up{width:13px;height:13px;}
+.small_test{padding:2px 0 0 8px;background:#fff;overflow:hidden}
+.small_test ul{width:100%}
+.small_test li{width:21px;height:21px;text-align:center;line-height:21px;margin:6px 6px 0 0;float:left;border:1px solid #c6c6c6;color:#3d3530;font-family:Arial;font-weight:bold;}
+.small_test li a{text-decoration:none}
+.small_test_bg{background:#e3e3e3;}
+.small_test_bg2{background:#ffdab6;}
+.fast_menu .explain{background:#e8e8e8;width:212px;}
+.fast_menu .explain1{width:212px;}
+.fast_menu .explain1 dl{padding-left:7px;float:left;width:65px;}
+.fast_menu .explain1 dt{float:left;width:23px;height:23px;}
+.fast_menu .explain1 dd{float:left;line-height:21px;color:#666;width:36px;float:right}
+.fast_menu .explain2{width:212px;}
+.fast_menu .explain2 dl{padding-left:3px;float:left;width:52px;}
+.fast_menu .explain2 dt{float:left;width:23px;height:23px;}
+.fast_menu .explain2 dd{float:left;line-height:21px;color:#666;width:26px;float:right}
+.explain1_btn{width:184px;margin:0 auto;}
+.exam_btn{width:200px;margin:0 auto}
+
+/**  lixin 2013-02-20  **/
+.fast_menu_lx{}
+.fast_menu_lx h5{width:168px;float:left;text-align:center;color:#fff;font-weight:normal;font-family:"微软雅黑";font-size:16px;line-height:26px;}
+.fast_menu_lx .explain1{width:220px;}
+.fast_menu_lx .explain1 dl{padding-left:7px;float:left;width:65px;}
+.fast_menu_lx .explain1 dt{float:left;width:23px;height:23px;}
+.fast_menu_lx .explain1 dd{float:left;line-height:21px;color:#666;width:36px;float:right}
+.bottomNav_top11{height:32px;cursor:pointer;  width:100%;background:url(/images/paperks/bg_timu_daohang1.jpg) repeat-x top left;}
+.xtNavA_bg_dt a {color:Black;}
+.xtNavA_con_tab a:hover{ text-decoration:none;} 
+.biaoji a:hover{ text-decoration:none;} 
+.bj_11{ border:2px solid #50b926;}
+.fast_menu_lx .explain2{width:212px;}
+.fast_menu_lx .explain2 dl{padding-left:3px;float:left;width:52px;}
+.fast_menu_lx .explain2 dt{float:left;width:23px;height:23px;}
+.fast_menu_lx .explain2 dd{float:left;line-height:21px;color:#666;width:26px;float:right}
+.border_t_g_r{border:#fff 1px solid}
+
+/**  阅卷页部分  **/
+.point_kuang{height:42px;background:url(/images/paperks/point_bg.png) repeat-x;border:1px solid #dad7bd}
+.point_kuang h4{font-weight:normal;color:#000;float:left;width:800px;padding-left:17px;line-height:42px;font-size:14px;}
+.point_closed{padding:15px 15px 0 0;width:11px;}
+.exam2_btn{}
+.exam2_btn ul{}
+.exam2_btn li{float:left;padding-right:3px;height:29px;}
+.analyze_con{position:relative;margin-top:3px;}
+.analyze_con .title{width:99px;height:40px;position:absolute;top:-33px;z-index:44;left:0px;}
+.analyze_con .content2{background:url(/images/paperks/analyze_bg.png) repeat-x #fff;border:1px #c5eab7 solid;position:relative;width:912px;overflow:hidden}
+.anl_clear{padding:0 16px;}
+.mark{width:31px;height:27px;padding-top:20px;}
+.answer_font{padding-left:15px;width:414px;}
+.answer_font ul{}
+.answer_font li{float:left;width:207px;height:28px;font-size:14px;color:#666;padding-top:8px;}
+.ask_pic{width:239px;height:40px;padding-top:15px;}
+.analyze_line{width:912px;height:20px;}
+.analyze_bg{background:#f1f7ed;padding:0 16px;width:880px;}
+.analyze_bg h5{width:80px;font-weight:bold;font-size:14px;color:#333;float:left;padding-top:4px;}
+.analyze_bg h6{line-height:24px;font-weight:normal;font-size:14px;color:#2f3743;width:800px;float:left}
+.anl_input{height:26px;width:70px;border:1px #c9c9c9 solid;line-height:26px;}
+.test2_finish{width:332px;margin:0 auto}
+.resolve_test{width:620px;padding:14px 0 0 10px;}
+.resolve_test h5{font-weight:bold;font-size:14px;color:#0090c5}
+.resolve_test h6{line-height:22px;color:#666;padding-top:10px;font-size:12px;font-weight:normal}
+.resolve_test_f{color:#0090c5;padding-top:10px;line-height:26px;}
+
+.tongji_center{}
+.tongji_center li{ text-align:center;}
+
+/**  lixin  **/
+.analysis_l_lx{ float:left; background:url(/images/paperks/analyze_font.png) no-repeat; height:30px; line-height:30px; font-size:14px; font-family:"微软雅黑"; color:#fff; width:96px; text-align:center;}
+.tk_lx{ clear:both;  padding-left:20px; padding-right:16px;background:#f1f7ed url(/images/paperks/dajxbg.png) no-repeat;border-right:1px solid #aed3f2;border-left:1px solid #aed3f2;border-bottom:1px solid #aed3f2; margin-right:3px; padding-top:23px; padding-bottom:15px;}
+.mark_ans_r_lx 
+{
+	border: 1px solid #c5c5c5;
+	background-color:#fff;
+	color: #000;
+}
+.mark_ans_rq_0_lx_error 
+{
+	border: 1px solid #c5c5c5;
+	background-color:#e3e3e3;
+	color: #000;
+}
+.mark_ans_rq_0_lx{border: 1px solid #c5c5c5;background-color:#ffe2db;color: #000;}
+
+
+/**  解析页部分  **/
+.lodge_btn{width:102px;margin:0 auto}
+.fast_test_f{text-align:center;color:#2f3743;font-size:14px;}
+.performance{width:528px;border:1px solid #eccc95;margin:0 auto;height:100px;background:#fff;}
+.performance_l{width:238px;}
+.performance_l h6{color:#2f3743;text-align:center;font-size:14px;font-weight:bold;padding-top:15px;}
+.performance_l h5{width:218px;margin:0 auto;border-top:1px dashed #9f9f9f;font-weight:normal;font-size:14px;color:#2f3743;text-align:center;padding-top:10px;}
+.performance_l .nub_color{color:#ff6600;font-size:30px;font-family:Arial;}
+.performance_r{width:289px;border-left:1px solid #eccc95;background:#fff9e6;height:100px;}
+.performance_r .message{color:#797979;line-height:28px;font-size:14px;width:145px;margin:0 auto;padding-top:6px;}
+
+/**  成绩页面部分  **/
+.score_head{}
+.score_head ul{}
+.score_head li{float:left;color:#FFF;line-height:63px;padding-left:25px;}
+.score_head li a{color:#FFF}
+.score_head li a:hover{color:#f5ff5b}
+
+.score_content{}
+.score_left{width:695px;}
+.score_left1{width:693px;border:1px solid #d9d9d9;background:#fff;}
+.score_left1 .title{background:url(../img/testing_left_bg.png) repeat-x;height:65px;line-height:65px;font-family:"微软雅黑";color:#339900;font-size:18px;font-weight:normal;text-align:center}
+.score_left1 .content{padding:0 51px;overflow:hidden}
+.score_left1 .content dl{}
+.score_left1 .content dt{width:131px;height:121px;background:url(/images/paperks/score_bg.png) no-repeat;font-family:"微软雅黑";text-align:center;float:left}
+.score_left1 .content .mark{line-height:63px;color:#FFF;font-size:30px;}
+.score_left1 .content .ming{line-height:47px;color:#F00;font-size:18px;}
+.score_left1 .content dd{float:right;width:442px;line-height:22px;color:#666;}
+.score_left1 .content .s_title{font-size:14px;font-weight:bold;color:#2f3743}
+.score_left1 .content ul{padding-left:4px;}
+.score_left1 .content li{padding-right:14px;float:left}
+.score_left1 .title2{height:44px;background:url(/images/paperks/title_bg.png) repeat-x;color:#2f3743;font-size:18px;font-family:"微软雅黑";text-align:center;line-height:44px;}
+.score_left1 .content2{padding:0 22px;}
+.score_left1 .content2 .list{}
+.score_left1 .content2 .list_t{height:39px;background:#f4f4f4;border-top:2px solid #32be00;color:#2f3743;font-size:14px;font-weight:bold;border-bottom:1px solid #dcdcdc}
+.score_left1 .content2 .list ul{}
+.score_left1 .content2 .list li{height:39px;line-height:39px;border-bottom:1px #999 dashed;font-size:14px;color:#666;float:left;width:100%}
+.score_left1 .content2 .wid1{width:172px;line-height:39px;text-align:center}
+.score_left1 .content2 .wid2{width:160px;line-height:39px;}
+.score_left1 .content2 .wid3{width:78px;line-height:39px;text-align:center}
+.score_left1 .content2 .wid4{width:100px;line-height:39px;text-align:center}
+.score_left1 .content2 .wid5{width:130px;line-height:39px;}
+.score_left1 .content2 .list_bg{background:#f0f0f0}
+
+.score_left1 .content2 .wid6{width:80px;line-height:39px;text-align:center}
+.score_left1 .content2 .wid7{width:170px;line-height:39px;text-align:center}
+.score_left1 .content2 .wid7 img{padding:10px 0 0 5px;}
+.score_left1 .content2 .wid8{width:64px;line-height:39px;text-align:center}
+.score_left1 .content2 .wid9{width:80px;line-height:39px;text-align:center}
+.score_left1 .content2 .wid10{width:120px;line-height:39px;}
+.score_left1 .content2 .wid11{width:135px;line-height:39px;}
+
+.paging{margin:0 auto;width:474px;}
+.paging ul{}
+.paging li{float:left;margin-left:12px;height:20px;background:#e6e6e6;line-height:20px;color:#2f3743;}
+.paging li a{padding:0 7px;}
+.page_bg{background-color:#25ab13;color:#fff;display:block;height:20px;padding:0 7px;float:left;font-weight:bold}
+
+
+.score_right{width:250px;}
+/*备考指南*/
+.advise_content2{width:100%;overflow:hidden}
+.advise_content2 ul{}
+.advise_content2 li{background:url(/images/paperks/advise_dot.png) no-repeat left 10px;padding-left:14px;line-height:24px;height:24px;width:212px;overflow:hidden;}
+.test_guide{}
+.guide_title{height:43px;border:1px solid #2f8b09;background:url(/images/paperks/guide_bg.png) repeat-x;padding-left:16px;}
+.guide_title h4{font-weight:bold;color:#FFF;background:url(/images/paperks/guide_icon.png) no-repeat left center;padding-left:23px;line-height:43px;}
+.guide_content{border:1px solid #d6d6d6;background:#FFF;border-top:0px;}
+.guide_content_t{background:url(/images/paperks/guide_tab_bg.png) repeat-x;height:36px;}
+.guide_content_t ul{}
+.guide_content_t li{float:left;width:82px;border-right:1px solid #d6d6d6;height:36px;line-height:36px;text-align:center;cursor:pointer}
+.relevant_papers_c{padding:0 18px;}
+.guide_content_c{padding:0 18px;}
+.video_re{width:100%;}
+.video_re dl{height:88px;}
+.video_re dt{width:84px;height:65px;border:1px solid #eaeaea;padding:1px;background:#FFF;float:left}
+.video_re dt img{width:80px;height:61px;padding:2px;background:#f6f6f6;}
+.video_re dd{width:114px;float:right;line-height:20px;color:#2f3743}
+.data_sharing{}
+.data_sharing ul{}
+.data_sharing li{height:49px;padding-top:11px;border-bottom:1px dashed #b7b7b7;line-height:20px;color:#788eb7}
+.data_sharing .icon1{background:url(/images/paperks/data_icon1.png) no-repeat left 2px;padding-left:23px;height:20px;width:188px;overflow:hidden;display:block;float:left}
+.data_sharing .icon2{background:url(/images/paperks/data_icon2.png) no-repeat left 2px;padding-left:22px;height:20px;width:188px;overflow:hidden;display:block;float:left}
+.data_sharing .icon3{background:url(/images/paperks/data_icon3.png) no-repeat left 2px;padding-left:23px;height:20px;width:188px;overflow:hidden;display:block;float:left}
+.recommended_books{background:#FFF;border:1px solid #d6d6d6;overflow:hidden;width:248px;}
+.recommended_books .title{height:44px;background:url(/images/paperks/title_bg.png) repeat-x;}
+.recommended_books .title h4{font-weight:bold;font-size:14px;color:#2f3743;float:left;width:68px;padding-left:16px;line-height:44px;}
+.recommended_books .title h6{font-size:12px;font-weight:normal;color:#ff6600;padding-right:16px;float:right;line-height:44px;}
+.recommended_books .title h6 a{color:#ff6600;}
+.recommended_books .title h6 a:hover{color:#ff6600;}
+.recommended_books .content{padding:0 16px;}
+.recommended_books .content dl{height:120px;}
+.recommended_books .content dt{width:71px;height:95px;border:1px solid #eaeaea;padding:1px;background:#FFF;float:left}
+.recommended_books .content dt img{width:67px;height:91px;padding:2px;background:#f6f6f6;}
+.recommended_books .content dd{float:right;width:132px;line-height:22px;color:#666;padding-top:6px;}
+.book_name{width:132px;height:22px;overflow:hidden;display:block;float:left}
+.sd0001{background:#FFF;font-weight:bold;color:#2f3743;}
+.sd0002{color:#666;}
+
+.intro_video{}
+.intro_video .title{height:43px;padding-left:16px;font-weight:bold;font-size:14px;color:#2f3743;background:url(/images/paperks/title_bg.png) repeat-x;text-align:left}
+.intro_video .title2{color:#00a000;height:43px;font-weight:bold;font-size:14px;}
+.intro_video .title3{color:#2f3743;font-weight:bold;}
+.video_table{}
+.video_table td{height:30px;color:#666;text-align:center;}
+.video_table td dl{width:90px;margin:0 auto}
+.video_table td dd{line-height:22px;float:left;width:49px;color:#ff6600;}
+.video_table td dt{height:22px;float:left;width:41px;}
+
+
+/**  纠错页面部分  **/
+.error_page{background:#fff;width:597px;margin:0 auto}
+.error_page .title{height:37px;background:url(/images/paperks/error_title_bg.png) repeat-x;}
+.error_page .title h4{padding:10px 0 0 16px;width:59px;height:14px;float:left}
+.error_page .content{border:1px solid #d6d6d6;border-top:0px;}
+.error_page .content_c{padding:0 16px;}
+.error_page .content_c h4{font-weight:normal;font-size:12px;color:#666}
+.error_text{width:560px;height:100px;border:1px solid #c9c9c9;line-height:20px;padding:2px 0 0 2px;}
+.error_btn{}
+.error_btn ul{}
+.error_btn li{float:left;width:78px;height:30px;padding-right:10px;}
+.error_message{}
+.error_message ul{}
+.error_message li{width:100%;height:54px;line-height:24px;border-bottom:1px solid #e0e0e0;color:#666;padding-top:5px;}
+
+
+

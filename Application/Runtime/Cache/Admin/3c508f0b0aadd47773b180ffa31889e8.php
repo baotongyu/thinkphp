@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>查看试卷详情</title>
+    <title>后台试卷添加</title>
     <link href="../../../../thinkphp/Public/admin/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">
@@ -121,21 +121,38 @@
 
         <!--右侧详情展示 开始-->
         <div class="ibox-content">
-            <div class="row">
-                <div class="form-group">
-                    <label class="col-sm-2 control-label">试卷名称：</label>
-                    <div class="col-sm-10">
-                        <span><?php echo ($test['sname']); ?></span>
-                    </div>
-                </div>
+            <form action="/thinkphp/admin/test/insertpa" method="post" class="form-horizontal">
+                <table class="table table-striped table-bordered table-hover  dataTable" id="editable" role="grid" aria-describedby="editable_info">
+                    <thead>
+                    <tr role="row">
+                        <th class="sorting_asc" tabindex="0" aria-controls="editable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 142px;">请选择</th>
+                        <th class="sorting_asc" tabindex="0" aria-controls="editable" rowspan="1" colspan="1" aria-sort="ascending" aria-label="Rendering engine: activate to sort column descending" style="width: 142px;">题号</th>
+                        <th class="sorting" tabindex="0" aria-controls="editable" rowspan="1" colspan="1" aria-label="Browser: activate to sort column ascending" style="width: 142px;">题目</th>
+                        <th class="sorting" tabindex="0" aria-controls="editable" rowspan="1" colspan="1" aria-label="Engine version: activate to sort column ascending" style="width: 142px;">答案</th>
+                        <th class="sorting" tabindex="0" aria-controls="editable" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 142px;">科目</th>
+                        <th class="sorting" tabindex="0" aria-controls="editable" rowspan="1" colspan="1" aria-label="CSS grade: activate to sort column ascending" style="width: 142px;">难易程度</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php if(is_array($data)): foreach($data as $key=>$vo): ?><tr class="gradeA odd" role="row">
+                            <td>
+                                <label class="checkbox-inline"><input type="checkbox" value="<?php echo ($vo['id']); ?>" name="<?php echo ($vo['id']); ?>"></label>
+                            </td>
+                            <td class="sorting_1"><?php echo ($vo['id']); ?></td>
+                            <td><?php echo ($vo['title']); ?></td>
+                            <td><?php echo ($vo['answer']==1?对:错); ?></td>
+                            <td class="center"><?php echo ($vo['course']); ?></td>
+                            <td class="center"><?php if($vo['status']==1) echo '简单'; elseif($vo['status']==2) echo '适中'; else echo '有点难';?></td>
+                        </tr><?php endforeach; endif; ?>
+                    </tbody>
+                </table>
                 <div class="hr-line-dashed"></div>
                 <div class="form-group">
-                    <label class="col-sm-2 control-label">试卷详情：</label>
-                    <?php if(is_array($ti)): foreach($ti as $key=>$vo): ?><div class="col-sm-10">
-                        <span><?php echo ($vo['title']); ?></span>
-                    </div><?php endforeach; endif; ?>
+                    <div class="col-sm-4 col-sm-offset-2">
+                        <button class="btn btn-primary" type="submit">添 加</button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
         <!--右侧详情展示 结束-->
 

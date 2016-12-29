@@ -76,13 +76,7 @@
                 <li>
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试卷管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="/thinkphp/admin/test/index">查看所有试卷</a></li>
-                        <li><a href="/thinkphp/admin/test/index1">查看初中试卷(语文)</a></li>
-                        <li><a href="/thinkphp/admin/test/index2">查看初中试卷(数学)</a></li>
-                        <li><a href="/thinkphp/admin/test/index3">查看高中试卷(物理)</a></li>
-                        <li><a href="/thinkphp/admin/test/index4">查看高中试卷(化学)</a></li>
-                        <li><a href="/thinkphp/admin/test/index5">查看大学试卷(高数)</a></li>
-                        <li><a href="/thinkphp/admin/test/index6">查看大学试卷(概率论)</a></li>
+                        <li><a href="/thinkphp/admin/test/index">查看试卷</a></li>
                         <li><a href="/thinkphp/admin/test/add">添加试卷</a></li>
                     </ul>
                 </li>
@@ -128,11 +122,21 @@
         <!--右侧详情展示 开始-->
         <div class="ibox-content">
             <form action="/thinkphp/admin/test/insert" method="post" class="form-horizontal">
-                <div class="form-group"><label class="col-sm-2 control-label">试卷题目：</label>
-                    <div class="col-sm-10"><input type="text" class="form-control" name="sname"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">试题添加：</label>
+                    <div class="col-sm-10">
+                        <label class="btn btn-primary"><a href="">单选题</a></label>
+                        <label class="btn btn-primary"><a href="/thinkphp/admin/test/addpa">判断题</a></label>
+                    </div>
                 </div>
                 <div class="hr-line-dashed"></div>
-                <div class="form-group"><label class="col-sm-2 control-label">科目：</label>
+                <div class="form-group"><label class="col-sm-2 control-label">试卷名称：</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="sname">
+                        <input type="hidden" name="id" value="<?php echo ($insertid); ?>">
+                    </div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">所属科目：</label>
                     <div class="col-sm-10">
                         <select class="form-control m-b" name="tid">
                             <option>请选择...</option>
@@ -152,16 +156,6 @@
                     </div>
                 </div>
                 <div class="hr-line-dashed"></div>
-                <div class="form-group"><label class="col-sm-2 control-label">试卷内容：</label>
-                    <div class="col-sm-10">
-                        <div>
-                            <label>
-                                <textarea cols="70" rows="30"  name="content" id="container"></textarea>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-                <div class="hr-line-dashed"></div>
                 <div class="form-group">
                     <div class="col-sm-4 col-sm-offset-2">
                         <button class="btn btn-primary" type="submit">添 加</button>
@@ -170,13 +164,6 @@
                 </div>
                 <div class="hr-line-dashed"></div>
             </form>
-            <script type="text/javascript">
-                CKEDITOR.replace('content',{
-                    toolbar : 'Full',
-                    uiColor : '#9AB8F3',
-                    height:'300'
-                });
-            </script>
         </div>
         <!--右侧详情展示 结束-->
 
@@ -192,16 +179,6 @@
         <!--右侧尾部信息 结束-->
     </div>
 </div>
-
-<!-- 配置文件 -->
-<script type="text/javascript" src="../../../../thinkphp/Public/ckeditor/ueditor.config.js"></script>
-<!-- 编辑器源码文件 -->
-<script type="text/javascript" src="../../../../thinkphp/Public/ckeditor/ueditor.all.js"></script>
-<script type="text/javascript" charset="utf-8" src="../../../../thinkphp/Public/ckeditor/lang/zh-cn/zh-cn.js"></script>
-<!-- 实例化编辑器 -->
-<script type="text/javascript">
-    var ue = UE.getEditor('container');
-</script>
 
 <!-- Mainly scripts -->
 <script src="../../../../thinkphp/Public/admin/js/jquery-2.1.1.js"></script>

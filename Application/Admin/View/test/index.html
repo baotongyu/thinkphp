@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>后台所有试卷查看</title>
+    <title>后台试卷查看</title>
     <link href="../../../../thinkphp/Public/admin/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">
@@ -59,7 +59,6 @@
                                     <td class="center"><?php if($vo['status']==1) echo '简单'; elseif($vo['status']==2) echo '适中'; else echo '有点难';?></td>
                                     <td class="center">
                                         <a href="/thinkphp/admin/test/look?id={$vo['id']}">查看详情</a> ||
-                                        <a href="/thinkphp/admin/test/edit?id={$vo['id']}">编辑</a> ||
                                         <a href="/thinkphp/admin/test/del?id={$vo['id']}">删除</a>
                                     </td>
                                 </tr>
