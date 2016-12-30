@@ -66,8 +66,10 @@
                         <p><?php echo ($vo['title']); ?></p>
                         <p></p>
                     </div>
+                    <div class="tacw"><b>正确答案：</b>D</div>
                     <div class="dzjs">
                         <b>答案解析：</b>
+                        <div class="tacw"><b>正确答案：</b>D</div>
                         <a href="/thinkphp/home/detail/answer?tid=<?php echo ($test['id']); ?>&id=<?php echo ($vo['id']); ?>"><u>点击查看答案解析</u></a>
                     </div>
                 </div><?php endforeach; endif; ?>

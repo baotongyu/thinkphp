@@ -34,32 +34,30 @@ class TestController extends Controller
 		//var_dump($_POST);die;
 		if(!empty($_POST)){
 			$panduan = implode(',',$_POST);//得到类似‘1,2,3’的字符串
-			$m = M('Test');
-			$res['panduan'] = $panduan;
-			$d = $m->add($res);
-			if($d){
-				$insertid = $d;
-				$this->assign('insertid',$insertid);
-				$p = M('Plate');
-				$data = $p->where('pid != 0')->select();
-				$this->assign('data',$data);
-				$this->display('test/add');
-			}
+			//var_dump($panduan);die;
+			$this->assign('panduan',$panduan);
+			$p = M('Plate');
+			$data = $p->where('pid != 0')->select();
+			$this->assign('data',$data);
+			$this->display('test/add');
 		}
 	}
 	
 	// 执行添加试卷操作
 	public function insert(){
+		//echo '<pre>';
+		//var_dump($_POST);die;
+		//echo '</pre>';
 		$m = M('test');
-		if(!$m->create()){
-			exit($m->getError());
-		}else{
-			$res = $m->save();
+		if($m->create()){
+			$res = $m->add();
 			if($res){
 				$this->success('试卷添加成功',u('Test/index'));
 			}else{
 				$this->error('试卷添加失败');
 			}
+		}else{
+			$this->error($m->getError());
 		}
 	}
 	

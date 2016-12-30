@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>后台试卷添加</title>
+    <title>后台试卷添加(判断题)</title>
     <link href="../../../../thinkphp/Public/admin/css/bootstrap.min.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../../../../thinkphp/Public/admin/css/plugins/toastr/toastr.min.css" rel="stylesheet">

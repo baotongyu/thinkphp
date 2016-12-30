@@ -26,18 +26,14 @@
 </div>
 <div class="bread">
     <span>您的位置：</span>
-    <a title="在线考试中心" href="/">在线考试中心</a>&nbsp;&gt;
-    <a title="医学频道试卷列表" href="">医学</a>&nbsp;&gt;
-    <a title="全国卫生专业技术资格考试(中初级)考试试卷列表" href="">全国卫生专业技术资格考试(中初级)</a>&nbsp;&gt;
-    <a title="放射医学技师考试试卷列表" href="">放射医学技师</a>&nbsp;&gt;
-    <a title="专业实践能力考试试卷列表" href="">专业实践能力</a>&nbsp;&gt; 进入考试
+    <a title="在线考试中心" href="/thinkphp/home/index/index">在线考试中心</a>&nbsp;&gt;&gt;
+    <a title="试卷列表" href="">试卷列表页</a>&nbsp;&gt;&gt;
+    <a title="{$test['sname']}" href="">{$test['sname']}</a>&nbsp;&gt;&gt; 正在考试
 </div>
 <div class="testing_content" style="width:958px;margin:0 auto">
     <div class="title" style="width:958px">
         <h4>
-            <span id="lblpapername">
-                2016下半年教师资格考试综合素质（幼儿园）押题及答案解析（一）
-            </span>
+            <span id="lblpapername">{$test['sname']}</span>
         </h4>
     </div>
     <div class="h15">
@@ -60,31 +56,27 @@
         <div class="h25"></div>
         <div id="con_one_0">
             <div id="dt_xt_content_0" style="display: ;">
-                <div class="style_dt_desc">一、单选题（本大题29小题．每题2.0分，共58.0分。请从以下每一道考题下面备选答案中选择一个最佳答案，并在答题卡上将相应题号的相应字母所属的方框涂黑。）</div><!--part1结束-->
+                <div class="style_dt_desc">判断题</div>
                 <div class="container">
                     <div id="921016_itemPageIndex_1">
-                        <div class="question border_t_g_r" id="xt_921016_870428" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; border: 1px solid rgb(255, 255, 255);" onmousemove="readymousemove_lx('xt_921016_870428');" onmouseout="readymouseleave_lx('xt_921016_870428');">
+                        <foreach name="ti" item="vo">
+                        <div class="question border_t_g_r" id="xt_921016_870428" style="padding-left: 10px; padding-right: 10px; padding-top: 10px; border: 1px solid rgb(255, 255, 255);" >
                             <div class="ques_title">
                                 <strong class="xt_index">第<span>1</span>题</strong>
-                                <p>小青在课堂上总是默默无言，陈老师给她写道：“在老师的眼里，你是一个聪明文静的孩子。每一次游戏活动，你总是那么认真；每一节儿歌课，你是那么专心。什么时候，能让老师听到你甜美的声音呢？”关于陈老师的做法，下列描述不正确的是(&nbsp; )。</p>
-                                <p>A．陈老师树立了以人为本的评价理念</p>
-                                <p>B．陈老师的评语有利于促进儿童的发展</p>
-                                <p>C．陈老师关注到了儿童的优点和闪光点</p>
-                                <p>D．陈老师采用了定量和定性相结合的评价</p>
+                                <p>{$vo['title']}</p>
                             </div>
                             <div class="choice"></div>
                             <div class="h10"></div>
                             <div class="selectanswer">
                                 <span class="xuanze_txt">[选择答案]</span>
                                 <ul class="zimu">
-                                    <li id="li_0_870428_1" onclick="doTotalItemsSelect0(this);return false;" input_name="itemMyAns_0_870428_1" input_value="A"><a onclick="this.blur();" href="javascript:void(0);" class="">A</a></li>
-                                    <li id="li_0_870428_2" onclick="doTotalItemsSelect0(this);return false;" input_name="itemMyAns_0_870428_1" input_value="B"><a onclick="this.blur();" href="javascript:void(0);" class="">B</a></li>
-                                    <li id="li_0_870428_3" onclick="doTotalItemsSelect0(this);return false;" input_name="itemMyAns_0_870428_1" input_value="C"><a onclick="this.blur();" href="javascript:void(0);" class="">C</a></li>
-                                    <li id="li_0_870428_4" onclick="doTotalItemsSelect0(this);return false;" input_name="itemMyAns_0_870428_1" input_value="D"><a onclick="this.blur();" href="javascript:void(0);" class="select">D</a></li>
+                                    <li><input type="radio" name="{$vo['id']}" value="1"> √ </li>
+                                    <li><input type="radio" name="{$vo['id']}" value="2"> X </li>
                                 </ul>
                             </div>
                             <div class="h10"></div>
-                        </div><!--question结束-->
+                        </div>
+                        </foreach>
                         <div class="h25"></div>
                         <div class="cut_question">
                             <div class="line"></div>
@@ -93,15 +85,11 @@
                         <div class="hand_paper">
                             <input name="hdStopTimes" type="hidden" id="hdStopTimes" value="0">
                             <input id="LastTime" name="LastTime" value="9" type="hidden">
-                            <input type="image" name="ImageButton1" id="ImageButton1" class="curPointer" src="../../../../thinkphp/Public/home/img/hand_paper.png" onclick="sumbit();" style="height: 50px; width: 182px; border-width: 0px;">
-                            <span id="lbljsTime">
-                                <script language="javascript" type="text/javascript"> ExamM = 120; countTime = 120;</script>
-                            </span>
+                            <input type="image" name="ImageButton1" id="ImageButton1" class="curPointer" src="../../../../thinkphp/Public/home/img/hand_paper.png"  style="height: 50px; width: 182px; border-width: 0px;">
                         </div>
                         <div class="h25"></div>
                         <div class="testing_banner"></div>
                         <div class="h25"></div>
-        <!--complete结束-->
                     </div>
                 </div>
             </div>

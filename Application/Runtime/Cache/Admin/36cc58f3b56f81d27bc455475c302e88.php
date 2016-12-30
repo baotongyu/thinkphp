@@ -124,15 +124,19 @@
             <form action="/thinkphp/admin/test/insert" method="post" class="form-horizontal">
                 <div class="form-group"><label class="col-sm-2 control-label">试题添加：</label>
                     <div class="col-sm-10">
-                        <label class="btn btn-primary"><a href="">单选题</a></label>
-                        <label class="btn btn-primary"><a href="/thinkphp/admin/test/addpa">判断题</a></label>
+                        <label class="btn btn-primary">
+                            <a href="">单选题</a>
+                        </label>
+                        <label class="btn btn-primary">
+                            <a href="/thinkphp/admin/test/addpa">判断题</a>
+                            <input type="hidden" name="panduan" value="<?php echo ($panduan); ?>">
+                        </label>
                     </div>
                 </div>
                 <div class="hr-line-dashed"></div>
                 <div class="form-group"><label class="col-sm-2 control-label">试卷名称：</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" name="sname">
-                        <input type="hidden" name="id" value="<?php echo ($insertid); ?>">
                     </div>
                 </div>
                 <div class="hr-line-dashed"></div>

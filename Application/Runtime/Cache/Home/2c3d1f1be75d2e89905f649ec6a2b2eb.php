@@ -45,7 +45,7 @@
 <div class="navBar">
     <ul class="nav clearfix">
         <li class="m">
-            <h3><a href="">网站</a></h3>
+            <h3><a href="/thinkphp/home/index/index">网站首页</a></h3>
         </li>
         <li class="s">|</li>
         <li class="m">
@@ -53,26 +53,26 @@
         </li>
         <li class="s">|</li>
         <li class="m ">
-            <h3><a href="">初中测试</a></h3>
+            <h3><a href="/thinkphp/home/list/index">初中测试</a></h3>
             <ul class="sub">
-                <li><a href="#">语文</a></li>
-                <li><a href="#">数学</a></li>
+                <li><a href="/thinkphp/home/list/index">语文</a></li>
+                <li><a href="/thinkphp/home/list/index">数学</a></li>
             </ul>
         </li>
         <li class="s">|</li>
         <li class="m">
-            <h3><a href="">高中测试</a></h3>
+            <h3><a href="/thinkphp/home/list/index">高中测试</a></h3>
             <ul class="sub">
-                <li><a href="#">物理</a></li>
-                <li><a href="#">化学</a></li>
+                <li><a href="/thinkphp/home/list/index">物理</a></li>
+                <li><a href="/thinkphp/home/list/index">化学</a></li>
             </ul>
         </li>
         <li class="s">|</li>
         <li class="m">
-            <h3><a href="">大学测试</a></h3>
+            <h3><a href="/thinkphp/home/list/index">大学测试</a></h3>
             <ul class="sub">
-                <li><a href="#">高数</a></li>
-                <li><a href="#">概率论</a></li>
+                <li><a href="/thinkphp/home/list/index">高数</a></li>
+                <li><a href="/thinkphp/home/list/index">概率论</a></li>
             </ul>
         </li>
         <li class="s">|</li>
@@ -146,7 +146,7 @@
                     <h2><span><strong>初中测试</strong></span></h2>
                 </div>
                 <div>
-                    <?php if(is_array($test)): foreach($test as $key=>$vo): ?><p><a href=""><?php echo ($vo['sname']); ?></a></p><?php endforeach; endif; ?>
+                    <?php if(is_array($test)): foreach($test as $key=>$vo): ?><p>[基础测试]<a href="/thinkphp/home/detail/index?id=<?php echo ($vo['id']); ?>"><?php echo ($vo['sname']); ?></a></p><?php endforeach; endif; ?>
                 </div>
             </div>
         </div>
@@ -157,7 +157,7 @@
                     <h2><span><strong>高中测试</strong></span></h2>
                 </div>
                 <div>
-                    <?php if(is_array($test)): foreach($test as $key=>$vo): ?><p><a href=""><?php echo ($vo['sname']); ?></a></p><?php endforeach; endif; ?>
+                    <?php if(is_array($test)): foreach($test as $key=>$vo): ?><p>[基础测试]<a href="/thinkphp/home/detail/index?id=<?php echo ($vo['id']); ?>"><?php echo ($vo['sname']); ?></a></p><?php endforeach; endif; ?>
                 </div>
             </div>
         </div>
@@ -168,7 +168,7 @@
                     <h2><span><strong>大学测试</strong></span></h2>
                 </div>
                 <div>
-                    <?php if(is_array($test)): foreach($test as $key=>$vo): ?><p><a href=""><?php echo ($vo['sname']); ?></a></p><?php endforeach; endif; ?>
+                    <?php if(is_array($test)): foreach($test as $key=>$vo): ?><p>[基础测试]<a href="/thinkphp/home/detail/index?id=<?php echo ($vo['id']); ?>"><?php echo ($vo['sname']); ?></a></p><?php endforeach; endif; ?>
                 </div>
             </div>
         </div>

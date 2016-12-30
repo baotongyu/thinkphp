@@ -23,11 +23,9 @@
 </div>
 <div class="bread">
     <span>您的位置：</span>
-    <a title="在线考试中心" href="/">在线考试中心</a>&nbsp;&gt;
-    <a title="医学频道试卷列表" href="">医学</a>&nbsp;&gt;
-    <a title="全国卫生专业技术资格考试(中初级)考试试卷列表" href="">全国卫生专业技术资格考试(中初级)</a>&nbsp;&gt;
-    <a title="放射医学技师考试试卷列表" href="">放射医学技师</a>&nbsp;&gt;
-    <a title="专业实践能力考试试卷列表" href="">专业实践能力</a>&nbsp;&gt; 确认进入考试
+    <a title="在线考试中心" href="/thinkphp/home/index/index">在线考试中心</a>&nbsp;&gt;
+    <a title="试卷列表" href="">试卷列表</a>&nbsp;&gt;
+    <a title="{$test['sname']}" href="">{$test['sname']}</a>&nbsp;&gt; 确认进入考试
 </div>
 <div class="mainContent m3">
     <div class="m_left">
@@ -46,7 +44,7 @@
                     </div>
                     <div class="dzjs">
                         <b>答案解析：</b>
-                        <a target="_blank" href=""><u>点击查看答案解析</u></a>
+                        <a href="/thinkphp/home/detail/answer?tid={$test['id']}&id={$vo['id']}"><u>点击查看答案解析</u></a>
                     </div>
                 </div>
                 </foreach>
