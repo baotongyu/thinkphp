@@ -22,18 +22,31 @@ class UserController extends Controller
 	
 	//执行用户添加操作
 	public function insert(){
-//    	var_dump($_POST);die;
+    	//var_dump($_POST);die;
     	//echo '添加学生信息';
-		$m = M('user');
-		if($m->create()){
-			if (false !== $m->add()) {
-				$this->success('数据添加成功','/thinkphp/admin/user/index');
-			} else {
-				$this->error('数据写入错误');
+		if(!empty($_POST['name']) && !empty($_POST['password']) && !empty($_POST['repassword']) && !empty($_POST['phone']) && !empty($_POST['email']) && !empty($_POST['auth']) && !empty($_POST['status'])){
+			if($_POST['password']==$_POST['repassword']){
+				$data['name'] = $_POST['name'];
+				$data['password'] = md5($_POST['password']);
+				$data['phone'] = $_POST['phone'];
+				$data['email'] = $_POST['email'];
+				$data['auth'] = $_POST['auth'];
+				$data['status'] = $_POST['status'];
+				//echo '<pre>';
+				//var_dump($data);die;
+				//echo '</pre>';
+				$user = M('User');
+				$res = $user->add($data);
+				if($res){
+					$this->success('用户添加成功','/thinkphp/admin/user/index');
+				}else{
+					$this->error('用户添加失败');
+				}
+			}else{
+				$this->error('前后密码输入不一致');
 			}
-		}else {
-			// 字段验证错误
-			$this->error($m->getError());
+		}else{
+			$this->error('不能提交空数据');
 		}
 	}
 	

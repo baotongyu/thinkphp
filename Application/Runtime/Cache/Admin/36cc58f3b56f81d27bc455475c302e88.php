@@ -125,7 +125,8 @@
                 <div class="form-group"><label class="col-sm-2 control-label">试题添加：</label>
                     <div class="col-sm-10">
                         <label class="btn btn-primary">
-                            <a href="">单选题</a>
+                            <a href="/thinkphp/admin/test/adddan">单选题</a>
+                            <input type="hidden" name="danxuan" value="<?php echo ($danxuan); ?>">
                         </label>
                         <label class="btn btn-primary">
                             <a href="/thinkphp/admin/test/addpa">判断题</a>

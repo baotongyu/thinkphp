@@ -66,8 +66,12 @@
                 <li>
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试题管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="/thinkphp/admin/questions/index">查看试题</a></li>
-                        <li><a href="/thinkphp/admin/questions/add">添加试题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index1">查看单选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index2">查看多选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index3">查看判断题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add1">添加单选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add2">添加多选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/add3">添加判断题</a></li>
                     </ul>
                 </li>
                 <!--试题管理 结束-->
@@ -129,17 +133,12 @@
                     </div>
                 </div>
                 <div class="hr-line-dashed"></div>
-                <div class="form-group"><label class="col-sm-2 control-label">年龄：</label>
-                    <div class="col-sm-10"><input type="text" class="form-control" name="age" value="<?php echo ($data['age']); ?>"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">电话：</label>
+                    <div class="col-sm-10"><input type="text" class="form-control" name="phone" value="<?php echo ($data['phone']); ?>"></div>
                 </div>
                 <div class="hr-line-dashed"></div>
-                <div class="form-group"><label class="col-sm-2 control-label">性别：</label>
-                    <div class="col-sm-10">
-                        <div>
-                            <label> <input type="radio" value="1" id="optionsRadios1" name="sex" <?php if($data['sex'] == 1): ?>checked<?php endif; ?> >男</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <label> <input type="radio" value="0" id="optionsRadios2" name="sex" <?php if($data['sex'] == 0): ?>checked<?php endif; ?>>女</label>
-                        </div>
-                    </div>
+                <div class="form-group"><label class="col-sm-2 control-label">邮箱：</label>
+                    <div class="col-sm-10"><input type="text" class="form-control" name="email" value="<?php echo ($data['email']); ?>"></div>
                 </div>
                 <div class="hr-line-dashed"></div>
                 <div class="form-group"><label class="col-sm-2 control-label">状态：</label>
@@ -167,7 +166,7 @@
                 <div class="hr-line-dashed"></div>
                 <div class="form-group">
                     <div class="col-sm-4 col-sm-offset-2">
-                        <button class="btn btn-primary" type="submit">提 交</button>
+                        <button class="btn btn-primary" type="submit">修 改</button>
                         <button class="btn btn-primary" type="reset">重 置</button>
                     </div>
                 </div>

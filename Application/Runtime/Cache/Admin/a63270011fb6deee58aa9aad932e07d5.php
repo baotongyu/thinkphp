@@ -66,7 +66,9 @@
                 <li>
                     <a href="index.html"><i class="fa fa-th-large"></i> <span class="nav-label">试题管理</span> <span class="fa arrow"></span></a>
                     <ul class="nav nav-second-level collapse">
-                        <li><a href="/thinkphp/admin/questions/index">查看试题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index1">查看单选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index2">查看多选题</a></li>
+                        <li><a href="/thinkphp/admin/questions/index3">查看判断题</a></li>
                         <li><a href="/thinkphp/admin/questions/add1">添加单选题</a></li>
                         <li><a href="/thinkphp/admin/questions/add2">添加多选题</a></li>
                         <li><a href="/thinkphp/admin/questions/add3">添加判断题</a></li>
@@ -128,17 +130,20 @@
                     <div class="col-sm-10"><input type="text" class="form-control" name="name"></div>
                 </div>
                 <div class="hr-line-dashed"></div>
-                <div class="form-group"><label class="col-sm-2 control-label">年龄：</label>
-                    <div class="col-sm-10"><input type="text" class="form-control" name="age"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">密码：</label>
+                    <div class="col-sm-10"><input type="text" class="form-control" name="password"></div>
                 </div>
                 <div class="hr-line-dashed"></div>
-                <div class="form-group"><label class="col-sm-2 control-label">性别：</label>
-                    <div class="col-sm-10">
-                        <div>
-                            <label> <input type="radio" value="1" id="optionsRadios1" name="sex">男</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <label> <input type="radio" value="0" id="optionsRadios2" name="sex">女</label>
-                        </div>
-                    </div>
+                <div class="form-group"><label class="col-sm-2 control-label">重复密码：</label>
+                    <div class="col-sm-10"><input type="text" class="form-control" name="repassword"></div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">手机号：</label>
+                    <div class="col-sm-10"><input type="text" class="form-control" name="phone"></div>
+                </div>
+                <div class="hr-line-dashed"></div>
+                <div class="form-group"><label class="col-sm-2 control-label">邮箱：</label>
+                    <div class="col-sm-10"><input type="text" class="form-control" name="email"></div>
                 </div>
                 <div class="hr-line-dashed"></div>
                 <div class="form-group"><label class="col-sm-2 control-label">状态：</label>
@@ -147,7 +152,7 @@
                         <select class="form-control m-b" name="status">
                             <option>请选择...</option>
                             <option value="1">开启</option>
-                            <option value="0">禁用</option>
+                            <!--<option value="0">禁用</option>-->
                         </select>
                     </div>
                 </div>
@@ -166,7 +171,7 @@
                 <div class="hr-line-dashed"></div>
                 <div class="form-group">
                     <div class="col-sm-4 col-sm-offset-2">
-                        <button class="btn btn-primary" type="submit">提 交</button>
+                        <button class="btn btn-primary" type="submit">添 加</button>
                         <button class="btn btn-primary" type="reset">重 置</button>
                     </div>
                 </div>

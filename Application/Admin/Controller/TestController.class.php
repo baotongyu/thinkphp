@@ -29,6 +29,14 @@ class TestController extends Controller
 		$this->display('test/addpa');
 	}
 	
+	// 加载添加单选题到试卷模板
+	public function adddan(){
+		$m = M('Danxuan');
+		$danxuan = $m->select();
+		$this->assign('danxuan',$danxuan);
+		$this->display('test/adddan');
+	}
+	
 	// 执行添加判断题到试卷操作
 	public function insertpa(){
 		//var_dump($_POST);die;
@@ -43,11 +51,23 @@ class TestController extends Controller
 		}
 	}
 	
+	// 执行添加单选题到试卷操作
+	public function insertdan(){
+		if(!empty($_POST)){
+			$danxuan = implode(',',$_POST);
+			$this->assign('danxuan',$danxuan);
+			$p = M('Plate');
+			$data = $p->where('pid != 0')->select();
+			$this->assign('$data',$data);
+			$this->display('test/add');
+		}
+	}
+	
 	// 执行添加试卷操作
 	public function insert(){
-		//echo '<pre>';
-		//var_dump($_POST);die;
-		//echo '</pre>';
+		echo '<pre>';
+		var_dump($_POST);die;
+		echo '</pre>';
 		$m = M('test');
 		if($m->create()){
 			$res = $m->add();

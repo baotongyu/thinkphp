@@ -5,13 +5,13 @@
             <a class="myTest" href="" rel="nofollow">会员中心</a> |
             <a class="sina" href="" target="_blank" rel="nofollow">官方微博</a>
         </span>
-        <span class="login" id="ks110_LoginView">欢迎来到在线考试(kaoshi.com)
-            <a href="" class="login-header" rel="nofollow">登录</a>
-            <a href="" class="zhuce-header" rel="nofollow">免费注册</a>
-        </span>
-        <span class="login" style="display:none;" id="ks110_LoginStatus">
-            <strong><span id="ks110_CurrentUser"></span></strong>，您好。
-            <a id="ks110_LoginOut" href="" rel="nofollow">[点此退出]</a>
+        <!--<span class="login" id="ks110_LoginView">欢迎来到在线考试(kaoshi.com)-->
+            <!--<a href="javascript:void(0);" class="login-header" rel="nofollow">登录</a>-->
+            <!--<a href="javascript:void(0);" class="zhuce-header" rel="nofollow">免费注册</a>-->
+        <!--</span>-->
+        <span class="login" style="display:block;" id="ks110_LoginStatus">
+            <strong><span id="ks110_CurrentUser"></span></strong>{$name}，您好。欢迎来到在线考试(kaoshi.com)
+            <a id="ks110_LoginOut" href="/thinkphp/home/login/login_out" rel="nofollow">[点此退出]</a>
         </span>
     </div>
 </div>
@@ -24,3 +24,98 @@
     </a>
 </div>
 <!--logo图 结束-->
+
+<!--导航栏 开始-->
+<div class="navBar">
+    <ul class="nav clearfix">
+        <li class="m">
+            <h3><a href="/thinkphp/home/index/index">网站首页</a></h3>
+        </li>
+        <li class="s">|</li>
+        <li class="m">
+            <h3><a href="">在线测试</a></h3>
+        </li>
+        <li class="s">|</li>
+        <li class="m ">
+            <h3><a href="/thinkphp/home/list/index">初中测试</a></h3>
+            <ul class="sub">
+                <li><a href="/thinkphp/home/list/index">语文</a></li>
+                <li><a href="/thinkphp/home/list/index">数学</a></li>
+            </ul>
+        </li>
+        <li class="s">|</li>
+        <li class="m">
+            <h3><a href="/thinkphp/home/list/index">高中测试</a></h3>
+            <ul class="sub">
+                <li><a href="/thinkphp/home/list/index">物理</a></li>
+                <li><a href="/thinkphp/home/list/index">化学</a></li>
+            </ul>
+        </li>
+        <li class="s">|</li>
+        <li class="m">
+            <h3><a href="/thinkphp/home/list/index">大学测试</a></h3>
+            <ul class="sub">
+                <li><a href="/thinkphp/home/list/index">高数</a></li>
+                <li><a href="/thinkphp/home/list/index">概率论</a></li>
+            </ul>
+        </li>
+        <li class="s">|</li>
+        <li class="m">
+            <h3><a href="">关于我们</a></h3>
+        </li>
+        <li class="s">|</li>
+        <li class="m">
+            <h3><a href="">联系我们</a></h3>
+        </li>
+        <li class="block"></li><!-- 滑动块 -->
+    </ul>
+</div>
+<script type="text/javascript">
+    (function(){
+        var ind = 0; //初始位置
+        var nav= jQuery(".nav");
+        var init = jQuery(".nav .m").eq(ind);
+        var block = jQuery(".nav .block"); //滑块
+        block.css({"left":init.position().left-3}); //初始化滑块位置
+        nav.hover(function(){},function(){ block.animate({"left":init.position().left-3},100); }); //移出导航滑块返回
+        jQuery(".nav").slide({
+            type:"menu", //效果类型
+            titCell:".m", // 鼠标触发对象
+            targetCell:".sub", // 效果对象，必须被titCell包含
+            delayTime:300, // 效果时间
+            triggerTime:0, //鼠标延迟触发时间
+            returnDefault:true,//on返回初始位置
+            defaultIndex:ind,//初始位置
+            startFun:function(i,c,s,tit){ //控制当前滑块位置
+                block.animate({"left":tit.eq(i).position().left-3},100);
+            }
+        });
+    })()
+</script>
+<!--导航栏 结束-->
+
+<!--轮播图 开始-->
+<div class="slider">
+    <div class="bd">
+        <ul>
+            <li><img width="100%" height="300px" src="../../../../thinkphp/Public/home/img/1.jpg" /></li>
+            <li><img width="100%" height="300px" src="../../../../thinkphp/Public/home/img/2.jpg" /></li>
+            <li><img width="100%" height="300px" src="../../../../thinkphp/Public/home/img/3.jpg" /></li>
+            <li><img width="100%" height="300px" src="../../../../thinkphp/Public/home/img/4.jpg" /></li>
+        </ul>
+    </div>
+    <!--<div class="hd"><ul><li></li><li></li></ul></div>-->
+    <div class="timer"></div><!-- 进度条 -->
+</div>
+
+<script type="text/javascript">
+    jQuery(".slider").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold",  autoPlay:true, autoPage:true, trigger:"click",
+        mouseOverStop:false,/* 鼠标移到容器层继续播放*/
+        /* 控制进度条 */
+        startFun:function(){
+            var timer = jQuery(".slider .timer");
+            timer.stop(true,true).animate({ "width":"0%" },0).animate({ "width":"100%" },2500);
+        }
+    });
+</script>
+<!--轮播图 结束-->
