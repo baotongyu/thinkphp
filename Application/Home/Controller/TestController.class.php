@@ -22,7 +22,9 @@ class TestController extends Controller
     }
     
     // 执行考试提交操作
-	public function submit(){
-    	echo '提交成功';
+	public function answer(){
+    	echo '<pre>';
+    	var_dump($_POST);die;
+    	echo '</pre>';
 	}
 }

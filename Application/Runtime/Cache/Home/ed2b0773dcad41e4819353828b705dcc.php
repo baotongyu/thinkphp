@@ -14,7 +14,6 @@
 </head>
 <body>
 <!--header头 开始-->
-
 <!--注册登录js-->
 <script type="text/javascript">
     $(function () {
@@ -652,7 +651,7 @@
                     </div>
                     <div class="dzjs">
                         <b>答案解析：</b>
-                        <a href="/thinkphp/home/detail/answer?tid=<?php echo ($test['id']); ?>&id=<?php echo ($vo['id']); ?>"><u>点击查看答案解析</u></a>
+                        <a href=""><u>点击查看答案解析</u></a>
                     </div>
                 </div><?php endforeach; endif; ?>
             </div>
